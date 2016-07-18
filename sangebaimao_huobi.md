@@ -27,7 +27,7 @@ categories:
 
 根据第二篇文章直接复现环境（事实证明和原环境相差非常小），由于foreach的关系，如果我们构造pictures[tmp_name][，然后定义filename就是把tmp_name改成filename中的值...
 
-![](./img/sangebaimao/2_2.png)
+![](/img/sangebaimao/2_2.png)
 
 我们看到tmp_name被改写了，所以我们可以通过这种方式控制每个字段的内容...
 
@@ -65,7 +65,7 @@ if (!empty($_FILES["homework"]["name"][$key]))
 前面多了一句判断`if (!empty($_FILES["homework"]["name"][$key]))`
 
 线上测试可以通过fuzz判断，于是payload是这样的
-![](img/sangebaimao/2_1.png)
+![](/img/sangebaimao/2_1.png)
 
 下面出现了base64的源码...
 
