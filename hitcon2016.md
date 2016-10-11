@@ -1,5 +1,5 @@
 ---
-title: hitcon2016 writeup
+title: hitcon2016 web writeup
 date: 2016-10-10 13:48:38
 tags:
 - Blogs
