@@ -1,10 +1,23 @@
 ---
-title: web2_giligili
+title: hctf2016 giligili writeup
 date: 2016-11-19 16:32:13
 tags:
+- Blogs
+- ctf
+- hctf
+categories:
+- Blogs
 ---
 
+题目是我很早以前做的sctf q1中的web500,我做的时候踩了坑，所以花了很久，感觉题目很有意思，所以就修改了题目又放上来了。
 
+正解wp
+[https://github.com/sternze/CTF_writeups/blob/master/sCTF/2016_Q1/obfuscat/readme.md](https://github.com/sternze/CTF_writeups/blob/master/sCTF/2016_Q1/obfuscat/readme.md)
+
+最终分数：124
+完成队伍：
+
+解题人数意外的多，感觉还是有很多py的人，迷...
 
 <!--more-->
 分析代码
