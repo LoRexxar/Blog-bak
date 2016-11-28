@@ -12,4 +12,4 @@ categories:
 
 <!--more-->
 
-[/pdf/CTF.pdf](/pdf/CTF.pdf)
+[pdf地址](/pdf/CTF.pdf)
