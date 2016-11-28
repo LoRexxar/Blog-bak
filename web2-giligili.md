@@ -15,7 +15,7 @@ categories:
 [https://github.com/sternze/CTF_writeups/blob/master/sCTF/2016_Q1/obfuscat/readme.md](https://github.com/sternze/CTF_writeups/blob/master/sCTF/2016_Q1/obfuscat/readme.md)
 
 最终分数：124
-完成队伍：
+完成队伍：64
 
 解题人数意外的多，感觉还是有很多py的人，迷...
 
