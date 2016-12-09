@@ -1,4 +1,4 @@
-title: hctf_game_week4&5_writeup
+title: hctf_game_week4&amp;5_writeup
 date: 2016-03-14 19:25:35
 tags:
 - Blogs
