@@ -287,6 +287,7 @@ http://54.223.241.254/?page=/tmp/ddog3
 ddog=cat /home/ctf/this-is-real-flag000
 ```
 
+所有思路都已经说明白了，如果还有人觉得有问题的话，可以直接细聊我，关于更多的事情，我没能力解释更多，只能说多说无益，借用脚本确实有错，所以被取消分数也没有太多怨言，但是更多事情只能说很多事情自在人心....以后就不做pwn题了，也免得给大家带来困扰
 
   [1]: http://static.zybuluo.com/LoRexxar/3mynkfeq39k3eohjz2wva98s/image_1b4b8pauc117a19crdtp881429.png
   [2]: http://static.zybuluo.com/LoRexxar/rh6m1p9mjf19e6n3j59ot0xa/image_1b4b8rnc814s0156ajbfte81hldm.png
