@@ -27,10 +27,10 @@ categories:
 login?
 ```
 
-没啥好玩的，弱口令
+没啥好玩的，注册的时候有超长用户名截断
 
-username：admin
-password：admin123
+原理就是用户名在check的时候是不同的，但是数据库字段保存是有长度的，所以会发生截断，注册中间为空格的超长用户名就可以截断为admin
+
 
 
 ## Get Flag ##
