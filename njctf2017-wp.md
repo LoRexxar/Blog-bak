@@ -366,7 +366,9 @@ getshell
 
 但题目有改过，测试了下应该是在check密码的时候过了一层md5，在nodejs中，加密函数只接受字符串和buffer，所以原题的解法传入数字就会报错。
 
-这里有个神奇的trick，在nodejs中，如果字符串中全是数字，字符串就会变成数字（真是神tmd...）
+<del>这里有个神奇的trick，在nodejs中，如果字符串中全是数字，字符串就会变成数字（真是神tmd...）</del>
+
+蓝猫师傅说并没有这种事情...这个和"1"==1的原理不同，这里是因为我盲猜了源码，github搜索bibibibibi什么的，可以找到真正的代码，然后这里的数据是过了parseInt，所以字符串被转成了数字。
 
 ```
 import hashlib
@@ -396,9 +398,9 @@ while 1:
 NJCTF{P1e45e_s3arch_th1s_s0urce_cod3_0lddriver}
 ```
 
-但事实上，第二题就是原题中的思路，而flag1就是secretkey，但题目中并没有源码...
+但事实上，第二题就是原题中的思路，而flag1就是secretkey，<del>但题目中并没有源码...</del>
 
-也就是如果你想做出第二题，需要上网找到原题的wp，然后下载代码，本地搭建然后修改默认为admin:yes，把cookie代入线上站，getflag2....
+<del>也就是如果你想做出第二题，需要上网找到原题的wp，然后下载代码，</del>本地搭建然后修改默认为admin:yes，把cookie代入线上站，getflag2....
 
 ```
 session=eyJhZG1pbiI6InllcyJ9; session.sig=DLXp3JcD1oX3c8v4pUgOAn-pDYo
