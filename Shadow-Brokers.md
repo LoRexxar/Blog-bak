@@ -128,3 +128,7 @@ fb.py最难受的是python2.6的脚本，所以用起来有点儿麻烦
 [http://bobao.360.cn/learning/detail/3739.html](http://bobao.360.cn/learning/detail/3739.html)
 
 [http://bobao.360.cn/learning/detail/3743.html](http://bobao.360.cn/learning/detail/3743.html)
+
+# DoublePulsar后门检测 #
+
+[https://github.com/countercept/doublepulsar-c2-traffic-decryptor](https://github.com/countercept/doublepulsar-c2-traffic-decryptor)
