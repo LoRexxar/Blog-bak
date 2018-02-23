@@ -1,6 +1,6 @@
 ---
-title: CSP Is Dead, Long Live CSP!-翻译
-date: 2017-05-06 19:19:57
+title: CSP Is Dead, Long Live CSP! 翻译
+date: 2017-05-09 14:42:37
 tags:
 - Blogs
 - csp

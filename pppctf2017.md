@@ -622,7 +622,12 @@ return render_template_string(commentt, comment=out_text.replace("\n","<br/>"))
 - 判断通过加载模板
 
 
-纵观上面的流程，如果我们先把一个python的反弹shell写入comments下的某个文件内，然后利用模板注入注入`{{ config.from_pyfile('/var/tmp/comments/<hash>.file') }}`就可以执行任意命令，但这就意味着会包含符号，无法通过unsafe函数。
+纵观上面的流程，如果我们先把一个python的反弹shell写入comments下的某个文件内，然后利用模板注入注入
+```
+{{ config.from_pyfile('/var/tmp/comments/<hash>.file') }}
+```
+就可以执行任意命令，但这就意味着会包含符
+号，无法通过unsafe函数。
 
 上面的具体可以看这篇文章
 [https://nvisium.com/blog/2016/03/11/exploring-ssti-in-flask-jinja2-part-ii/](https://nvisium.com/blog/2016/03/11/exploring-ssti-in-flask-jinja2-part-ii/)
@@ -653,7 +658,10 @@ def hash(x):
 而DES本身的加密方式并不适用所有64位，它忽略每个字节的lsb，这就意味我们可以通过一些方式来找到2个相同hash的payload
 
 
-只需要碰撞出我们需要的3个被禁止的符号就够了`{}/`
+只需要碰撞出我们需要的3个被禁止的符号就够了
+```
+{}/
+```
 
 payload
 ```

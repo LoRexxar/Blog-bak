@@ -55,7 +55,7 @@ categories:
 这时候就需要提到我曾经使用过的另一种攻击手段了，由于firefox的安全性仍然走在chrome的前面，所以就出现了一个特别的只在chrome下的利用方式
 
 ```
-<link rel="prefetch" src="http://xxxx/submit.php?addadmin=123456">
+<link rel="prefetch" href="http://xxxx/submit.php?addadmin=123456">
 ```
 
 当时我在文章中提到了这种攻击方式，可以构成csrf，由于link标签毕竟仍是一个html标签，所以没办法，仅通过link标签并没有办法盗取cookie。
