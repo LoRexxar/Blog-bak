@@ -5,7 +5,7 @@ tags:
 - rce
 ---
 
-2月20号，RIPS团队在官网公开了一篇[WordPress 5.0.0 Remote Code Execution](WordPress 5.0.0 Remote Code Execution)，文章中主要提到在author权限账号下，可以通过修改Post Meta变量覆盖、目录穿越写文件、模板包含3个漏洞构成一个RCE漏洞。
+2月20号，RIPS团队在官网公开了一篇[WordPress 5.0.0 Remote Code Execution](https://blog.ripstech.com/2019/wordpress-image-remote-code-execution/)，CVE编号CVE-2019-6977，文章中主要提到在author权限账号下，可以通过修改Post Meta变量覆盖、目录穿越写文件、模板包含3个漏洞构成一个RCE漏洞。
 
 但在原文中，作者只大致描述了漏洞原理，其中大量的漏洞细节被省略，甚至部分的利用和后端服务器也有相当的关系，所以在复现的过程中遇到了各种问题，我们花了大量的时间分析代码，最终终于完全还原了该漏洞，其中部分关键利用点用了和原文有些许差异的利用方式（原文说的太含糊其辞，无法复现）。在下面的分析中，我会尽量按照复现过程中的思考方式及流程，以便读者理解。
 
@@ -18,7 +18,7 @@ tags:
 - [WordPress commit <= 43bdb0e193955145a5ab1137890bb798bce5f0d2 （WordPress 5.1-alpha-44280）](https://github.com/WordPress/WordPress/commit/43bdb0e193955145a5ab1137890bb798bce5f0d2)
 - 拥有一个author权限的账号
 
-影响包括windows、linux、mac在内的服务端，后端图片处理库为gd/imagick都受到印象，只不过利用难度有所差异。
+影响包括windows、linux、mac在内的服务端，后端图片处理库为gd/imagick都受到影响，只不过利用难度有所差异。
 
 其中，原文提到只影响release 5.0.0版，但现在官网上可以下载的5.0.0已经修复该漏洞。实际在WordPress 5.1-alpha-44280更新后未更新的4.9.9~5.0.0的WordPress都受到该漏洞影响。
 
@@ -162,7 +162,7 @@ function _wp_get_allowed_postdata( $post_data = null ) {
 
 这里传入的变量src就是从修改过的`_wp_attached_file`而来。
 
-在代码中，我们可以很轻易的验证一个问题。**在WordPress的设定中，图片路径可能会收到某个插件的影响而不存在，如果目标图片不在想要的路径下时，WordPress就会把文件路径拼接为形似http://127.0.0.1/wp-content/uploads/2019/02/2.jpg 的url链接，然后从url访问下载原图**
+在代码中，我们可以很轻易的验证一个问题。**在WordPress的设定中，图片路径可能会受到某个插件的影响而不存在，如果目标图片不在想要的路径下时，WordPress就会把文件路径拼接为形似http://127.0.0.1/wp-content/uploads/2019/02/2.jpg 的url链接，然后从url访问下载原图**
 
 这里的`_load_image_to_edit_path`就是用来完成这个操作的。
 
@@ -198,7 +198,7 @@ cropped-evil.jpg
 
 ## 控制模板参数来导致任意文件包含
 
-进度进展到到这就有点儿陷入僵局，因为原文中关于这部分只用了一句话带过，在实际利用的过程中遇到了很多问题，甚至不同版本的wordpress会有不同的表现，其中诞生了多种利用方式，这里我主要讲1种稳定利用的方式。
+进度进展到这就有点儿陷入僵局，因为原文中关于这部分只用了一句话带过，在实际利用的过程中遇到了很多问题，甚至不同版本的wordpress会有不同的表现，其中诞生了多种利用方式，这里我主要讲1种稳定利用的方式。
 
 ### 设置`_wp_page_template`
 
