@@ -218,6 +218,68 @@ bg = chrome.extension.getBackgroundPage();
 
 ![image.png-119.7kB][6]
 
+# Zoomeye Tools 使用全解
+
+## 安装
+
+chromium系的所有浏览器都可以直接下载
+
+- [https://chrome.google.com/webstore/detail/zoomeye-tools/bdoaeiibkccgkbjbmmmoemghacnkbklj](https://chrome.google.com/webstore/detail/zoomeye-tools/bdoaeiibkccgkbjbmmmoemghacnkbklj)
+
+初次安装完成时应该为
+![image.png-24.4kB][7]
+
+## 使用方法
+
+由于Zoomeye Tools提供了两个功能，一个是Zoomeye辅助工具，一个是Zoomeye preview.
+
+### zoomeye 辅助工具
+
+首先第一个功能是配合Zoomeye的，只会在Zoomeye域下生效，这个功能不需要登录zoomeye。
+
+当我们打开Zoomeye之后搜索任意banner，等待页面加载完成后，再点击右上角的插件图标，就能看到多出来的两条选项。
+
+![image.png-291.2kB][8]
+
+
+如果我们选择copy all ip with LF，那么剪切板就是
+```
+23.225.23.22:8883
+23.225.23.19:8883
+23.225.23.20:8883
+149.11.28.76:10443
+149.56.86.123:10443
+149.56.86.125:10443
+149.233.171.202:10443
+149.11.28.75:10443
+149.202.168.81:10443
+149.56.86.116:10443
+149.129.113.51:10443
+149.129.104.246:10443
+149.11.28.74:10443
+149.210.159.238:10443
+149.56.86.113:10443
+149.56.86.114:10443
+149.56.86.122:10443
+149.100.174.228:10443
+149.62.147.11:10443
+149.11.130.74:10443
+```
+
+如果我们选择copy all url with port
+```
+'23.225.23.22:8883','23.225.23.19:8883','23.225.23.20:8883','149.11.28.76:10443','149.56.86.123:10443','149.56.86.125:10443','149.233.171.202:10443','149.11.28.75:10443','149.202.168.81:10443','149.56.86.116:10443','149.129.113.51:10443','149.129.104.246:10443','149.11.28.74:10443','149.210.159.238:10443','149.56.86.113:10443','149.56.86.114:10443','149.56.86.122:10443','149.100.174.228:10443','149.62.147.11:10443','149.11.130.74:10443'
+```
+
+### Zoomeye Preview
+
+第二个功能是一个简易版本的Zoomeye，这个功能需要登录Zoomeye。
+
+在任意域我们点击右上角的Login Zoomeye，如果你之前登陆过Zoomeye那么会直接自动登录，如果没有登录，则需要在telnet404页面登录。登录完成后等待一会儿就可以加载完成。
+
+在访问网页时，点击右上角的插件图标，我们就能看到相关ip的信息以及开放端口
+![image.png-276.9kB][9]
+
 # 写在最后
 
 最后我们上传chrome开发者中心之后只要等待审核通过就可以发布出去了。
@@ -232,3 +294,6 @@ bg = chrome.extension.getBackgroundPage();
 [4]: http://static.zybuluo.com/LoRexxar/r5r5hn1k3m0iyvc582bd79p8/image.png
 [5]: http://static.zybuluo.com/LoRexxar/bk36oiqgv9k2l95hdkebvs7y/image.png
 [6]: http://static.zybuluo.com/LoRexxar/t2v2fbuacthi7yxvne81k67i/image.png
+[7]: http://static.zybuluo.com/LoRexxar/9nhywpk4wun6d8uf7tqdfeaj/image.png
+[8]: http://static.zybuluo.com/LoRexxar/ktr8rus2dyswkcajdew7pg4q/image.png
+[9]: http://static.zybuluo.com/LoRexxar/gzpp3gloo6yyfpmwq9piw6w2/image.png
