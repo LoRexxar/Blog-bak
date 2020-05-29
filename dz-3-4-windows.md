@@ -18,6 +18,8 @@ tags: ctf web
 
 - [这是一篇“不一样”的真实渗透测试案例分析文章](https://paper.seebug.org/1144/)
 
+<!--more-->
+
 # authkey有什么用？
 
 ```
