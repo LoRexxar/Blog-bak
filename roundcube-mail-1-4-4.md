@@ -469,6 +469,14 @@ public static function rep_specialchars_output($str, $enctype = '', $mode = '', 
 仔细观察不难发现，其实过滤的方向主要在单双引号的转义，尖括号的转义上。当然，这样的转义已经足够应对90%的情况了。
 
 
+
+这里主要是集中在分类上，如果说这里分类到转义比较清晰的路径上，就没什么办法和绕过什么的相关。
+
+比如函数Q设置enctype为html，mode为strict，输出时就会转义包括尖括号、双引号等和XSS相关的符号。我们就没办法绕过了。
+
+
+
+
 [1]: http://static.zybuluo.com/LoRexxar/6nloxgso8aq1kfs4qu16rdve/image.png
 [2]: http://static.zybuluo.com/LoRexxar/6rp1srgqkbfmum2optzl1xwz/image.png
 [3]: http://static.zybuluo.com/LoRexxar/kj0fbz9gp31hscf3vlauc6va/image.png
