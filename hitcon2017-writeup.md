@@ -673,5 +673,5 @@ $ curl -b cookie "http://host/?m=upload&url=phar:///var/www/data/$MD5_IP/&lucky=
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/c1c9vp7cvb2z2ausx5biqr84/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/u3360luwi2cwwqdsukt59ckv/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/c1c9vp7cvb2z2ausx5biqr84/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/u3360luwi2cwwqdsukt59ckv/image.png

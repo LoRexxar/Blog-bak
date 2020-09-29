@@ -340,16 +340,16 @@ Wordpress Statistics在v12.0.7版本的时候，爆出了一个注入漏洞，�
 而在实际生活中，wordpress的漏洞重点集中在插件上面...在wordpress的插件上多做注意可能最重要的一点。
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/b2m55p5w1amy64d5vww0kp9y/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/5qjdgprdmeqh7d7awt7bazek/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/acpd28bshdtbv9frpp9yk4bk/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/a2n7503wo2y8a81877z1inol/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/s5nw3inv60vvi2q3cakrbuvq/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/2mq2pxdwxirgt1cywzo0mg04/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/4p0q7zbsf8uvxepfd1lsiybn/image.png
-  [8]: http://static.zybuluo.com/LoRexxar/vpt9l24gr6rgs1fc2mgvx8us/image.png
-  [9]: http://static.zybuluo.com/LoRexxar/1i5798uqjsyhklh6ho9n4gp9/image.png
-  [10]: http://static.zybuluo.com/LoRexxar/hoyqx6ytpymklu8yotqotah8/image.png
-  [11]: http://static.zybuluo.com/LoRexxar/dqy8aga20sm4puak7vffpnwf/image.png
-  [12]: http://static.zybuluo.com/LoRexxar/4ve3cgd2ovitpuwcphmk1f6q/image.png
-  [13]: http://static.zybuluo.com/LoRexxar/9iwujibhpfktsknwwkpl5hsk/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/b2m55p5w1amy64d5vww0kp9y/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/5qjdgprdmeqh7d7awt7bazek/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/acpd28bshdtbv9frpp9yk4bk/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/a2n7503wo2y8a81877z1inol/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/s5nw3inv60vvi2q3cakrbuvq/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/2mq2pxdwxirgt1cywzo0mg04/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/4p0q7zbsf8uvxepfd1lsiybn/image.png
+  [8]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/vpt9l24gr6rgs1fc2mgvx8us/image.png
+  [9]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/1i5798uqjsyhklh6ho9n4gp9/image.png
+  [10]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/hoyqx6ytpymklu8yotqotah8/image.png
+  [11]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/dqy8aga20sm4puak7vffpnwf/image.png
+  [12]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/4ve3cgd2ovitpuwcphmk1f6q/image.png
+  [13]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/9iwujibhpfktsknwwkpl5hsk/image.png

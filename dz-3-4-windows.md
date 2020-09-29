@@ -428,7 +428,7 @@ http://127.0.0.1/uc_server');phpinfo();//
 - [https://lorexxar.cn/2017/08/31/dz-authkey/](https://lorexxar.cn/2017/08/31/dz-authkey/)
 
 
-[1]: http://static.zybuluo.com/LoRexxar/qg4p08znypnncy3fh1zvpzus/image.png
-[2]: http://static.zybuluo.com/LoRexxar/qbubmlozli0mtqs5doc26k29/image.png
-[3]: http://static.zybuluo.com/LoRexxar/rtc48lyjaannmn5wnovwd9b2/image.png
-[4]: http://static.zybuluo.com/LoRexxar/24tv518rdz5ders59zju3x2c/image.png
+[1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/qg4p08znypnncy3fh1zvpzus/image.png
+[2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/qbubmlozli0mtqs5doc26k29/image.png
+[3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/rtc48lyjaannmn5wnovwd9b2/image.png
+[4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/24tv518rdz5ders59zju3x2c/image.png

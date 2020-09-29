@@ -303,24 +303,24 @@ gd的利用就比较麻烦了，gd不但会处理图片的exif部分，还会删
 最后再次感谢我的小伙伴们以及整个过程中给我提供了很大帮助的朋友们:>
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/cgozqid346cirpalfry3ps7u/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/1ca2bjtbmdqt7tl0nz29mvw7/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/ijdgvyjrcqro2xztcgh3vzx8/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/hv1kgjeri5635k7xvvs9lxyz/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/bd22pbm6mqco49wpxebzffkz/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/4vinea9b84p46a7x9b0dfrbh/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/n122ebgtgw29ok5c1xexcf96/image.png
-  [8]: http://static.zybuluo.com/LoRexxar/awrqpa9v86f67jpwzfioboca/image.png
-  [9]: http://static.zybuluo.com/LoRexxar/qshmsr5bhwgv6oh8232y78mz/image.png
-  [10]: http://static.zybuluo.com/LoRexxar/8q9zr6dncxgx2m1qveoj314y/image.png
-  [11]: http://static.zybuluo.com/LoRexxar/2qo07680pzpjefwsazm4skz3/image.png
-  [12]: http://static.zybuluo.com/LoRexxar/oo5no9pcj30vbls8bjlrvjuo/image.png
-  [13]: http://static.zybuluo.com/LoRexxar/uh1kcrii5y44x7h7sznlg364/image.png
-  [14]: http://static.zybuluo.com/LoRexxar/ijdgvyjrcqro2xztcgh3vzx8/image.png
-  [15]: http://static.zybuluo.com/LoRexxar/q6jvrurv2py511a9wrh7yfcy/image.png
-  [16]: http://static.zybuluo.com/LoRexxar/y9gg131ytcofxp5fwuenh6a4/image.png
-  [17]: http://static.zybuluo.com/LoRexxar/z9nj4y67noznrwfif1blzemy/image.png
-  [18]: http://static.zybuluo.com/LoRexxar/b9ts2st95rjlsha8rbafo732/image.png
-  [19]: http://static.zybuluo.com/LoRexxar/b1rilg2yyu8mc7saqrnt63ps/image.png
-  [20]: http://static.zybuluo.com/LoRexxar/cltz55rpzevjwlp8i185zwgv/image.png
-  [21]: http://static.zybuluo.com/LoRexxar/6k5itquevd8mlbkxbk1gyqb1/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/cgozqid346cirpalfry3ps7u/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/1ca2bjtbmdqt7tl0nz29mvw7/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/ijdgvyjrcqro2xztcgh3vzx8/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/hv1kgjeri5635k7xvvs9lxyz/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/bd22pbm6mqco49wpxebzffkz/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/4vinea9b84p46a7x9b0dfrbh/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/n122ebgtgw29ok5c1xexcf96/image.png
+  [8]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/awrqpa9v86f67jpwzfioboca/image.png
+  [9]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/qshmsr5bhwgv6oh8232y78mz/image.png
+  [10]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/8q9zr6dncxgx2m1qveoj314y/image.png
+  [11]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/2qo07680pzpjefwsazm4skz3/image.png
+  [12]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/oo5no9pcj30vbls8bjlrvjuo/image.png
+  [13]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/uh1kcrii5y44x7h7sznlg364/image.png
+  [14]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/ijdgvyjrcqro2xztcgh3vzx8/image.png
+  [15]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/q6jvrurv2py511a9wrh7yfcy/image.png
+  [16]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/y9gg131ytcofxp5fwuenh6a4/image.png
+  [17]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/z9nj4y67noznrwfif1blzemy/image.png
+  [18]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/b9ts2st95rjlsha8rbafo732/image.png
+  [19]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/b1rilg2yyu8mc7saqrnt63ps/image.png
+  [20]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/cltz55rpzevjwlp8i185zwgv/image.png
+  [21]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/6k5itquevd8mlbkxbk1gyqb1/image.png

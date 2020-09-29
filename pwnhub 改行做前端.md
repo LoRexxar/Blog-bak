@@ -91,7 +91,7 @@ http://54.222.168.105:8065/?error=132%3C%2fscript%3E%3Cscript%3E1%3C%28br=1)*/%0
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/d8xt7lg79qpug1bg5h2iz12f/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/6r4v068dowoe21oko5dc3bbm/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/tncxdcdxhyndjiwzhd78bjlk/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/n422bqq6r3t2bbrlaab4kfc8/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/d8xt7lg79qpug1bg5h2iz12f/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/6r4v068dowoe21oko5dc3bbm/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/tncxdcdxhyndjiwzhd78bjlk/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/n422bqq6r3t2bbrlaab4kfc8/image.png

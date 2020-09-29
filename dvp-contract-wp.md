@@ -385,6 +385,6 @@ storage[sha3(sha3(0xaaa,0)+0)+1] = 0xbbb
 - [https://mp.weixin.qq.com/s/2nuWmDZeNT-Nmgn4OfQALg](https://mp.weixin.qq.com/s/2nuWmDZeNT-Nmgn4OfQALg)
 - [以太坊合约审计checkList](https://github.com/knownsec/Ethereum-Smart-Contracts-Security-CheckList)
 
-  [1]: http://static.zybuluo.com/LoRexxar/7dvoippf9k5s0o23rh7kv4ur/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/7dvoippf9k5s0o23rh7kv4ur/image.png
   
   

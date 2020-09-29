@@ -152,9 +152,9 @@ if 有权限:
 在WordPress的安全认知中，Nonce机制的确是一个效果非常好的安全机制，但从一个安全从业者的观点来说，WordPress的超级管理员应不应该等同于服务器管理员仍然是一个需要考虑的问题，在安全的世界里来说，给每个用户他们应有的权限才是最安全的做法，不是吗？
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/7k87xv38kljtsu08lpg2ju4l/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/6jmk1qzzzlbydglv51l62eif/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/m7mx6s4217aggje7oegtcr78/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/hvb8xfejnydcxacmxxz9x446/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/7d9zrgu15iwsk7ob8ruwm5e7/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/si77yllce9ril7y5gygvswbg/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/7k87xv38kljtsu08lpg2ju4l/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/6jmk1qzzzlbydglv51l62eif/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/m7mx6s4217aggje7oegtcr78/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/hvb8xfejnydcxacmxxz9x446/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/7d9zrgu15iwsk7ob8ruwm5e7/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/si77yllce9ril7y5gygvswbg/image.png

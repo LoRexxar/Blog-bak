@@ -310,4 +310,4 @@ print time.strftime("%Y-%m-%d %X", time.localtime())
 到此为止，一个完整的xss bot就完成了，虽然可能不是最完美的解决方案，希望会有更好的解决办法:>
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/3bmb1d3ecanliezvtk0ybcwm/image_1bepoa4nsjb91ipsli170tclt9.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/3bmb1d3ecanliezvtk0ybcwm/image_1bepoa4nsjb91ipsli170tclt9.png

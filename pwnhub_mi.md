@@ -85,5 +85,5 @@ ssh -qTfnN -D 7070 -p 22 user@host
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/0yzymerrijoi97gvkmg6y199/image_1b4rjcvh4ua51ake1e5j1eft9rv9.png
-  [2]: http://static.zybuluo.com/LoRexxar/83hz6jc1zwa3f7e1srj9int9/image_1b4rjojas1glag04v3m1vpg1bj7m.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/0yzymerrijoi97gvkmg6y199/image_1b4rjcvh4ua51ake1e5j1eft9rv9.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/83hz6jc1zwa3f7e1srj9int9/image_1b4rjojas1glag04v3m1vpg1bj7m.png

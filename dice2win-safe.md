@@ -256,16 +256,16 @@ Dice2win在之前已经出现了这类攻击
 就目前为止，无论是底层的机制也好，又或是随机数的生成方式也好，智能合约的安全还有很长的路要走。
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/t60mhjw487zp2pgzhi4hurkp/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/5117iq8ahgvgtugkz2cfnzwv/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/lkg0ccut2gpd7nubxyiy5x09/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/hg6fijxmxndiqsrxzvl1hxzk/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/vomabxeg90j8wbi9fv7bvba2/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/wmyluf5z5muk79wt757qdwr4/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/3amrflndfl27xgqri5sjdcqz/image.png
-  [8]: http://static.zybuluo.com/LoRexxar/h86qkka4ibqmys1dja2n8qrn/image.png
-  [9]: http://static.zybuluo.com/LoRexxar/bdtz5kgavla68ebmsmhs8ojs/image.png
-  [10]: http://static.zybuluo.com/LoRexxar/zbnajq74l6m01xpfx4z3r9f8/image.png
-  [11]: http://static.zybuluo.com/LoRexxar/zq19tbbj6gyd0x3f99nqp014/image.png
-  [12]: http://static.zybuluo.com/LoRexxar/1n95tv47fd9b4ouqx3lu7q80/image.png
-  [13]: http://static.zybuluo.com/LoRexxar/81lglt14i2u1v3pigmbayq8y/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/t60mhjw487zp2pgzhi4hurkp/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/5117iq8ahgvgtugkz2cfnzwv/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/lkg0ccut2gpd7nubxyiy5x09/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/hg6fijxmxndiqsrxzvl1hxzk/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/vomabxeg90j8wbi9fv7bvba2/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/wmyluf5z5muk79wt757qdwr4/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/3amrflndfl27xgqri5sjdcqz/image.png
+  [8]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/h86qkka4ibqmys1dja2n8qrn/image.png
+  [9]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/bdtz5kgavla68ebmsmhs8ojs/image.png
+  [10]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/zbnajq74l6m01xpfx4z3r9f8/image.png
+  [11]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/zq19tbbj6gyd0x3f99nqp014/image.png
+  [12]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/1n95tv47fd9b4ouqx3lu7q80/image.png
+  [13]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/81lglt14i2u1v3pigmbayq8y/image.png

@@ -456,9 +456,9 @@ ps：这里膜@zsx和@超威蓝猫，因为我无法加载jquery，所以我看�
 拟态防御本身的问题越来越清晰起来，其最关键的业务落地代价太大问题，在现在的拟态防御中，逐渐使用放弃一些安全压力的方式来缓解，现在的拟态防御更针对倾向于组件级安全问题的防御。假设在部分高防需求场景下，拟态作为安全生态的一环，如果可以通过配置的方式，将拟态与传统的Waf、防火墙的手段相结合，不得不承认，在一定程度上，拟态的确放大了安全防御中的一部分短板。拟态防御的后续发展怎么走，还是挺令人期待的🙋。
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/2k4skvfxrdpk81z7h7ktz8a3/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/wjyknopjz1krhiw5xiwdmck7/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/d5qwbe52uoykxpukj2jng0nq/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/19xgb9vijfro6rt1tmtmq4a2/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/086wtfcoxjv3qiu42cmayvzv/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/inqsfwig6xb3bvudh8dhozzl/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/2k4skvfxrdpk81z7h7ktz8a3/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/wjyknopjz1krhiw5xiwdmck7/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/d5qwbe52uoykxpukj2jng0nq/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/19xgb9vijfro6rt1tmtmq4a2/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/086wtfcoxjv3qiu42cmayvzv/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/inqsfwig6xb3bvudh8dhozzl/image.png

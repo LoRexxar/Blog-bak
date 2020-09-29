@@ -208,10 +208,10 @@ if(data.cmd =='badges'){
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/bz7gl9fs2q89pvezn6xm03xb/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/io54g5yal3om63po5w4e9qvn/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/4wljy4njhwsq583n1cpz8rvi/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/elpojcabch5pk77o79de6m12/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/fij89ai2u0ls69du1qkc7fl2/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/o0jxd89x9r60btxhsln4vum2/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/9xqbie6lw0xwoe6ooz0s2dsb/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/bz7gl9fs2q89pvezn6xm03xb/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/io54g5yal3om63po5w4e9qvn/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/4wljy4njhwsq583n1cpz8rvi/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/elpojcabch5pk77o79de6m12/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/fij89ai2u0ls69du1qkc7fl2/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/o0jxd89x9r60btxhsln4vum2/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/9xqbie6lw0xwoe6ooz0s2dsb/image.png

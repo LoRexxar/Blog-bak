@@ -287,4 +287,4 @@ for(i=0;i<40;i++){
 还没测试就关题目了...就这样吧
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/t2e9kvty7o8xv0kj5x7uh18d/image_1b9uuk1n36lm1gonn8bemmv99.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/t2e9kvty7o8xv0kj5x7uh18d/image_1b9uuk1n36lm1gonn8bemmv99.png

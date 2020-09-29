@@ -821,5 +821,5 @@ contract Son_7878678 {
 跑个200次就ok了
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/22i2648cwgcaf5sfwj3o3lur/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/vsxtld6i9wut49ac1nfmbzvz/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/22i2648cwgcaf5sfwj3o3lur/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/vsxtld6i9wut49ac1nfmbzvz/image.png

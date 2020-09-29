@@ -477,7 +477,7 @@ public static function rep_specialchars_output($str, $enctype = '', $mode = '', 
 
 
 
-[1]: http://static.zybuluo.com/LoRexxar/6nloxgso8aq1kfs4qu16rdve/image.png
-[2]: http://static.zybuluo.com/LoRexxar/6rp1srgqkbfmum2optzl1xwz/image.png
-[3]: http://static.zybuluo.com/LoRexxar/kj0fbz9gp31hscf3vlauc6va/image.png
-[4]: http://static.zybuluo.com/LoRexxar/g8i3dc9ypdloiyah7x8clymi/image.png
+[1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/6nloxgso8aq1kfs4qu16rdve/image.png
+[2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/6rp1srgqkbfmum2optzl1xwz/image.png
+[3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/kj0fbz9gp31hscf3vlauc6va/image.png
+[4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/g8i3dc9ypdloiyah7x8clymi/image.png

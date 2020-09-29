@@ -193,6 +193,6 @@ function distribute(address[] addresses) onlyOwner {
  
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/bo0boybdj7nd5mgmt6jfs3tz/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/e51ihtpievj0strjnya86j4r/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/w2tvf02hnjezjceobziak6k6/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/bo0boybdj7nd5mgmt6jfs3tz/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/e51ihtpievj0strjnya86j4r/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/w2tvf02hnjezjceobziak6k6/image.png

@@ -220,6 +220,6 @@ location.href="{article_url}";
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/bz7gl9fs2q89pvezn6xm03xb/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/io54g5yal3om63po5w4e9qvn/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/4wljy4njhwsq583n1cpz8rvi/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/bz7gl9fs2q89pvezn6xm03xb/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/io54g5yal3om63po5w4e9qvn/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/4wljy4njhwsq583n1cpz8rvi/image.png

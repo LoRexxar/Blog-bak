@@ -206,8 +206,8 @@ xml.send('to=sss&message='+escape(inner));
 那么如果admin站点和xss站点非同源呢？由于同源策略的影响，你不能从父窗口获取子窗口的内容，那么就只能通过点击劫持的方式，来发送请求，payload如前面漏洞分析时讲到的。
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/k8qla98d1zqzmp7jd9p2hth5/image_1bchpbi9rkcc1rj812s4mt1jo49.png
-  [2]: http://static.zybuluo.com/LoRexxar/h9y56mw4eqx0w16a9ju4h0i7/image_1bei38vv318ft1nanss23vpf4e9.png
-  [3]: http://static.zybuluo.com/LoRexxar/x665kblc6mz1fisgs3ipczcz/image_1bei3c425lcq9j519p24vmg1hm.png
-  [4]: http://static.zybuluo.com/LoRexxar/sdexy7qywxsqttqsewa8bkca/image_1bei3dvii1ut4n0p6l3pjgbpu13.png
-  [5]: http://static.zybuluo.com/LoRexxar/e6uhrjtjw6ftcnbq0c3t9dd9/image_1bei3ivl41icf9u011vj1sp7o0f1g.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/k8qla98d1zqzmp7jd9p2hth5/image_1bchpbi9rkcc1rj812s4mt1jo49.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/h9y56mw4eqx0w16a9ju4h0i7/image_1bei38vv318ft1nanss23vpf4e9.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/x665kblc6mz1fisgs3ipczcz/image_1bei3c425lcq9j519p24vmg1hm.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/sdexy7qywxsqttqsewa8bkca/image_1bei3dvii1ut4n0p6l3pjgbpu13.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/e6uhrjtjw6ftcnbq0c3t9dd9/image_1bei3ivl41icf9u011vj1sp7o0f1g.png

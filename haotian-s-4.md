@@ -279,8 +279,8 @@ if(!someAddress.send(55)) {
 我把这一类问题归结为编码设计问题，开发者可以在编码设计阶段注意这些问题，可以避免大多数潜在安全问题。
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/7jrgm6rgesqnj0lk7vu3d0n3/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/f7mv3abosn82swuavmxt9b9q/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/rvrppg5fwoysxqqtt1x763is/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/driyeydgf2m51vfaazjwiktr/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/2dhc8l1t7tbh46nw1dgm9hb2/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/7jrgm6rgesqnj0lk7vu3d0n3/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/f7mv3abosn82swuavmxt9b9q/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/rvrppg5fwoysxqqtt1x763is/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/driyeydgf2m51vfaazjwiktr/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/2dhc8l1t7tbh46nw1dgm9hb2/image.png

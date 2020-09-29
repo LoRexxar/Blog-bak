@@ -227,4 +227,4 @@ domain="example.jp" />
 
 - [http://drops.xmd5.com/static/drops/web-10798.html](http://drops.xmd5.com/static/drops/web-10798.html)
 
-  [2]: http://static.zybuluo.com/LoRexxar/9ikc1hbn085eecbpip9k4qhs/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/9ikc1hbn085eecbpip9k4qhs/image.png

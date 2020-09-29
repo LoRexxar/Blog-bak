@@ -394,18 +394,18 @@ theme_stylesheet 的name作为字典的键被写入相关的数据。
 抛开实际的利用不谈，这个漏洞的普适性才更加的特殊，bbcode是现在主流的论坛复杂环境的解决方案，事实上，可能会有不少cms会忽略和mybb一样的问题，毕竟人才是最大的安全问题，当人自以为是理解了机器的一切想法时，就会理所当然得忽略那些还没被发掘的问题，安全问题，也就在这种情况下悄然诞生了...
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/2sqg4mfyp2gxvzkgso6ukbpf/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/2djx25qc7zk91sre0cb57qpa/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/1vzl0syw0azoyze1eyjswdj6/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/x21og8j9jusptv8jydinfwsi/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/dmab7neitnrhhc9tz6vsg5kp/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/6hb80yi92z4d8qw6jr84ddr8/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/9ymykvc2nkw2iyrrcglu6mbj/image.png
-  [8]: http://static.zybuluo.com/LoRexxar/534dh1kbms7bj74nd9kj1gsv/image.png
-  [9]: http://static.zybuluo.com/LoRexxar/kbvn6wytobvzdkdxsf7kt1g3/image.png
-  [10]: http://static.zybuluo.com/LoRexxar/hg8teug35kvvqidni2yp3wwl/image.png
-  [11]: http://static.zybuluo.com/LoRexxar/92kjt8109dfzko2q6w7dwxh9/image.png
-  [12]: http://static.zybuluo.com/LoRexxar/b20kmnra0fwqj0jmd5evy1d1/image.png
-  [13]: http://static.zybuluo.com/LoRexxar/534dh1kbms7bj74nd9kj1gsv/image.png
-  [14]: http://static.zybuluo.com/LoRexxar/6ulzp7tspenjxkw6736kp67y/image.png
-  [15]: http://static.zybuluo.com/LoRexxar/02hprp4c9vbokdj0p3lczilz/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/2sqg4mfyp2gxvzkgso6ukbpf/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/2djx25qc7zk91sre0cb57qpa/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/1vzl0syw0azoyze1eyjswdj6/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/x21og8j9jusptv8jydinfwsi/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/dmab7neitnrhhc9tz6vsg5kp/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/6hb80yi92z4d8qw6jr84ddr8/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/9ymykvc2nkw2iyrrcglu6mbj/image.png
+  [8]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/534dh1kbms7bj74nd9kj1gsv/image.png
+  [9]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/kbvn6wytobvzdkdxsf7kt1g3/image.png
+  [10]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/hg8teug35kvvqidni2yp3wwl/image.png
+  [11]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/92kjt8109dfzko2q6w7dwxh9/image.png
+  [12]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/b20kmnra0fwqj0jmd5evy1d1/image.png
+  [13]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/534dh1kbms7bj74nd9kj1gsv/image.png
+  [14]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/6ulzp7tspenjxkw6736kp67y/image.png
+  [15]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/02hprp4c9vbokdj0p3lczilz/image.png

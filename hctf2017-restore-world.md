@@ -189,4 +189,4 @@ mphejFzYjJOaGRHbHZiajBsTWpkb2RIUndPaTh2Y205dmRHc3VjSGN2SlRJM0pUSmlZblJ2WVNoa
 即可
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/bp6f3b81h84qt19qc00ws80q/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/bp6f3b81h84qt19qc00ws80q/image.png

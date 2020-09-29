@@ -77,5 +77,5 @@ aaang style=background-image:url('http://119.29.192.14')
 ![image_1b9a8efhs12qe1ktq124drc6podm.png-62.1kB][2]
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/oaum49esbcd46h8i0g2oni34/image_1b9a7v94vr64up1alh1jkcq3r9.png
-  [2]: http://static.zybuluo.com/LoRexxar/g5bdewuyr3z0vmqbuwyrmonc/image_1b9a8efhs12qe1ktq124drc6podm.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/oaum49esbcd46h8i0g2oni34/image_1b9a7v94vr64up1alh1jkcq3r9.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/g5bdewuyr3z0vmqbuwyrmonc/image_1b9a8efhs12qe1ktq124drc6podm.png

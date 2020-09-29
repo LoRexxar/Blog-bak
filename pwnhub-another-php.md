@@ -258,6 +258,6 @@ exec,passthru,shell_exec,assert,glob,imageftbbox,bindtextdom,dir,proc_open,popen
 听ven师傅说后面是pwn php，我就不自寻死路了，就到这里
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/3ahdwdvid617k41przx54lx5/image_1bafa2nvpl7hl7n14d71sjk4g3m.png
-  [2]: http://static.zybuluo.com/LoRexxar/w71w0hbgw4cnrhafki8fft94/image_1bad45g037c73iessr9qgp4u9.png
-  [3]: http://static.zybuluo.com/LoRexxar/kiqpvpnu7yxvoyh58t42bwjh/image_1baf7qq8413qm1l5j8ff1dnn9u39.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/3ahdwdvid617k41przx54lx5/image_1bafa2nvpl7hl7n14d71sjk4g3m.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/w71w0hbgw4cnrhafki8fft94/image_1bad45g037c73iessr9qgp4u9.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/kiqpvpnu7yxvoyh58t42bwjh/image_1baf7qq8413qm1l5j8ff1dnn9u39.png

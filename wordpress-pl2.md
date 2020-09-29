@@ -201,14 +201,14 @@ So, at best, you are describing "a way for an admin to achieve something that he
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/ypg8xnr3sond8644y8swl8jc/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/68a8puqj0k96ifgmryzi2ogw/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/ewecs9lrot08ijg2vlvituh9/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/u7y5hg3m1y2nj2c8kxbbhuk6/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/8o61e5tla9dglj0m5g2z7349/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/r1pfhrohhin6kj295zoqckjh/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/nvvhoe3gxmepnug6yf6aaojr/image.png
-  [8]: http://static.zybuluo.com/LoRexxar/pksfa3e4gtjg6ztgnuubedkb/image.png
-  [9]: http://static.zybuluo.com/LoRexxar/smc72erghubs8a1xvtzo5sjp/image.png
-  [10]: http://static.zybuluo.com/LoRexxar/qa12ejx4ad0pf4c245fe3nqg/image.png
-  [11]: http://static.zybuluo.com/LoRexxar/gm5rvjq13ajcw3o19cyprllv/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/ypg8xnr3sond8644y8swl8jc/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/68a8puqj0k96ifgmryzi2ogw/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/ewecs9lrot08ijg2vlvituh9/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/u7y5hg3m1y2nj2c8kxbbhuk6/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/8o61e5tla9dglj0m5g2z7349/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/r1pfhrohhin6kj295zoqckjh/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/nvvhoe3gxmepnug6yf6aaojr/image.png
+  [8]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/pksfa3e4gtjg6ztgnuubedkb/image.png
+  [9]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/smc72erghubs8a1xvtzo5sjp/image.png
+  [10]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/qa12ejx4ad0pf4c245fe3nqg/image.png
+  [11]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/gm5rvjq13ajcw3o19cyprllv/image.png

@@ -384,4 +384,4 @@ MongoClient.connect(url, function(err, db) {
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/wfir4flmnno2knv9b5h21ibg/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/wfir4flmnno2knv9b5h21ibg/image.png

@@ -129,8 +129,8 @@ Fomo3D游戏最最核心的规则就是**最后一个购买的玩家获得最大
 [https://mp.weixin.qq.com/s/s_RCF_EDlptQpm3d7mzApA](https://mp.weixin.qq.com/s/s_RCF_EDlptQpm3d7mzApA)
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/ny8ikv87ex1y5ak6k7ctgek8/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/wd1m1sn4sccybe4owzhabnt7/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/wbtd3tmc5pykdo254ulule93/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/l3b4vd61s8wu1wt638xai3r4/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/j776fccqmuyk574l6gp27fpp/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/ny8ikv87ex1y5ak6k7ctgek8/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/wd1m1sn4sccybe4owzhabnt7/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/wbtd3tmc5pykdo254ulule93/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/l3b4vd61s8wu1wt638xai3r4/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/j776fccqmuyk574l6gp27fpp/image.png

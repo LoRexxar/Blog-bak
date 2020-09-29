@@ -132,7 +132,7 @@ http://119.29.192.14/test.php?xss="><script src="//ajax.googleapis.com/ajax/libs
 总的来说还是挺迷的，因为这种方式在chrome里几乎完全被拦截了，但还是提供一个比较新颖的思路，通过大家对cdn的盲目信任绕过csp限制W
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/51ax0b15rzpbeomk30waym23/image_1b92k6r661kgrdc1eugk341mdk9.png
-  [2]: http://static.zybuluo.com/LoRexxar/xfbijx2m25ge3jrjrve4c05t/image_1b92vql4u168var51av2d6r1505m.png
-  [3]: http://static.zybuluo.com/LoRexxar/zjuliwh7r0cpybw1owp3ndvf/image_1b92vvh80e581a0i1eh51hq81hb13.png
-  [4]: http://static.zybuluo.com/LoRexxar/twy05rjcpid3kh8rqdhnbd8z/image_1b9312f3u1h7a1tm411elpi7kq81g.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/51ax0b15rzpbeomk30waym23/image_1b92k6r661kgrdc1eugk341mdk9.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/xfbijx2m25ge3jrjrve4c05t/image_1b92vql4u168var51av2d6r1505m.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/zjuliwh7r0cpybw1owp3ndvf/image_1b92vvh80e581a0i1eh51hq81hb13.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/twy05rjcpid3kh8rqdhnbd8z/image_1b9312f3u1h7a1tm411elpi7kq81g.png

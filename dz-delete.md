@@ -118,15 +118,15 @@ if(submitcheck('profilesubmit')) {
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/8xr9kq4bmikxuci286hh6s2l/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/9owkr0zm4gwqcpigimhgta6w/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/392mpt7s3xw043k783cy41yy/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/vk4l8kqfhufghl3maniamczw/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/agw0gmgx9byh5hzbr49ouu6c/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/hyk311wk0c08ug5hlinfvc4z/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/9orn2r2lsgbjtrjtz5eibkgd/image.png
-  [8]: http://static.zybuluo.com/LoRexxar/ooma7pdsjfwql1wcqxtlmy1k/image.png
-  [9]: http://static.zybuluo.com/LoRexxar/lwyqxqyhen2nw6224v20goel/image.png
-  [10]: http://static.zybuluo.com/LoRexxar/e15zw9781j2wt6o5up2g8m71/image.png
-  [11]: http://static.zybuluo.com/LoRexxar/54u9dam4i0uhsoriiyreileo/image.png
-  [12]: http://static.zybuluo.com/LoRexxar/oijfyp6ogwgwtmcbr2jtb2vc/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/8xr9kq4bmikxuci286hh6s2l/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/9owkr0zm4gwqcpigimhgta6w/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/392mpt7s3xw043k783cy41yy/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/vk4l8kqfhufghl3maniamczw/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/agw0gmgx9byh5hzbr49ouu6c/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/hyk311wk0c08ug5hlinfvc4z/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/9orn2r2lsgbjtrjtz5eibkgd/image.png
+  [8]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/ooma7pdsjfwql1wcqxtlmy1k/image.png
+  [9]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/lwyqxqyhen2nw6224v20goel/image.png
+  [10]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/e15zw9781j2wt6o5up2g8m71/image.png
+  [11]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/54u9dam4i0uhsoriiyreileo/image.png
+  [12]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/oijfyp6ogwgwtmcbr2jtb2vc/image.png

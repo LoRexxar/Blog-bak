@@ -319,10 +319,10 @@ fonction transferOwnership(address newOwner) onlyOwner public {
 截止2018年10月31日，以太坊合约审计Checklist的所以问题完成了第一轮扫描，第一轮扫描针对以太坊公开的所有合约，其中超过80%的智能合约存在1个以上的安全隐患问题。在接下来的扫描报告中，我们会公开《以太坊合约审计Checklist》并使用HaoTian对以太坊公链上的所有智能合约进行基于opcode的扫描分析。
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/cglm3fw5hgo8v3yxlw2e9030/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/lgqxp0s6918fy0cnycirpld1/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/t9cc1ex2st3asqyv9ohqz5ce/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/gu1fsetyt2gunyzt0g987i10/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/pmnh8qg8rivp13j6xu27egh4/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/9m8dxvzfo8a22cm2qv605kfp/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/th4gf0bmpdyvm5j1pc2rzjhi/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/cglm3fw5hgo8v3yxlw2e9030/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/lgqxp0s6918fy0cnycirpld1/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/t9cc1ex2st3asqyv9ohqz5ce/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/gu1fsetyt2gunyzt0g987i10/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/pmnh8qg8rivp13j6xu27egh4/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/9m8dxvzfo8a22cm2qv605kfp/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/th4gf0bmpdyvm5j1pc2rzjhi/image.png

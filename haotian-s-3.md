@@ -272,8 +272,8 @@ function initContract() public OnlyOwner {
 这里我们建议所有的开发者重新审视自己的合约代码，检查是否存在编码安全问题，避免不必要的麻烦或严重的安全问题。
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/tub5ug8lyrsdyex667gqi1kb/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/sdmjneivtg8sfnmbdgmvyllb/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/mw0nliru74uoj89glmx607b5/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/x89qplere2imehe4pwgqbjmt/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/v2b81fxsfk3z2r2kslrq2ulb/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/tub5ug8lyrsdyex667gqi1kb/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/sdmjneivtg8sfnmbdgmvyllb/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/mw0nliru74uoj89glmx607b5/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/x89qplere2imehe4pwgqbjmt/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/v2b81fxsfk3z2r2kslrq2ulb/image.png

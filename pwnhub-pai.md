@@ -123,7 +123,7 @@ HTTP/1.1"  404 1285 "http://54.223.115.219/phpmyadmin/index.php" "Mozilla/4.0 (c
 这里tomato师傅给出了第二种解决办法，也就是我一直研究的获取dns解析历史记录，但我找到很多站都搜索不到，tomato给出了一个别的办法
 [https://passivetotal.org](https://passivetotal.org)
 
-![1.png-43.8kB](http://static.zybuluo.com/LoRexxar/2jdv55tovcw7smtqy90anxm0/1.png)
+![1.png-43.8kB](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/2jdv55tovcw7smtqy90anxm0/1.png)
   
   
 只能瑟瑟发抖,这个结果我只在who.is和domaintools上搜到了，但都是收费的，没什么办法。

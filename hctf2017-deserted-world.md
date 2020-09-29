@@ -222,5 +222,5 @@ vps, 2.html
 getflag!
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/tzbaummy81p4ycznfzj0ladl/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/ik54i9k8irjz1biosk5xnunu/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/tzbaummy81p4ycznfzj0ladl/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/ik54i9k8irjz1biosk5xnunu/image.png

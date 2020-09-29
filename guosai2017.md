@@ -506,7 +506,7 @@ get flag
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/hml88kgi4o6fedxcf2b310a2/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/ovwsqpqw3m7woxybr5n1rx0a/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/fezpkgin6jwtnpw28y6ep02b/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/tr0z404vlz8pe1622z4uxpm5/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/hml88kgi4o6fedxcf2b310a2/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/ovwsqpqw3m7woxybr5n1rx0a/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/fezpkgin6jwtnpw28y6ep02b/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/tr0z404vlz8pe1622z4uxpm5/image.png

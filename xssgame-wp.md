@@ -120,9 +120,9 @@ ok，那么我们把上面3个条件连起来就好了，我们通过set功能�
 http://www.xssgame.com/f/d9u16LTxchEi/set?name=csrf_token&value=1&redirect=transfer%3Fname%3Dattacker%26amount%3D123%22%3E%3Cscript%3Ealert%281%29%3C%2fscript%3E%26csrf_token%3D1
 ```
 
-  [1]: http://static.zybuluo.com/LoRexxar/dpj1h0g7nu7fl7oqa182zp5j/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/tqxu94dqc6jsacpvh64313cx/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/g2bfyw3barnj4hue3lg5kzg9/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/w4r2qa2evfhgm72p5umgugs4/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/yxpfbnis9jidy9w8lpmk96mz/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/g6eiv8nlvv1e47ehmwckq6pg/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/dpj1h0g7nu7fl7oqa182zp5j/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/tqxu94dqc6jsacpvh64313cx/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/g2bfyw3barnj4hue3lg5kzg9/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/w4r2qa2evfhgm72p5umgugs4/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/yxpfbnis9jidy9w8lpmk96mz/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/g6eiv8nlvv1e47ehmwckq6pg/image.png

@@ -160,11 +160,11 @@ phar://./sites/default/files/2019-04/drupal.png
 回顾整个漏洞，不难发现其实整个漏洞都是由很多个不起眼的小漏洞构成的，Drupal的反序列化POP链已经被公开许久，phar漏洞也已经爆出一年，在2019年初，Drupal也更新修复了这个点，而`preg_replace`报错会抛出错误我相信也不是特别特别的特性，把这三个漏洞配合上一个很特别的a标签设置content-type的trick，就成了一个很漂亮的漏洞链。
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/rkle8o5mqjrbojwjk5tjzx1w/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/indn6qfpopamyrayhdcce9la/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/s5oij4hcmjf0k2z0e0glftfy/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/64be2k19ac5nknfenv5ze9d2/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/02tpqziep6h2sq4oerq5nel9/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/7bprh31be2igfao2ozo7gkia/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/4j71xgb53o74nwfue1fp2y01/image.png
-  [8]: http://static.zybuluo.com/LoRexxar/105tpluq69zpoggbzcj879hc/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/rkle8o5mqjrbojwjk5tjzx1w/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/indn6qfpopamyrayhdcce9la/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/s5oij4hcmjf0k2z0e0glftfy/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/64be2k19ac5nknfenv5ze9d2/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/02tpqziep6h2sq4oerq5nel9/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/7bprh31be2igfao2ozo7gkia/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/4j71xgb53o74nwfue1fp2y01/image.png
+  [8]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/105tpluq69zpoggbzcj879hc/image.png

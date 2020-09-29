@@ -310,4 +310,4 @@ redirect=partially-trusted.org/evil/script.js">
 后面篇幅着重介绍了基于nonce的方法和“strict-dynamic”关键字这两个新提出来的csp实现方式，但这种实现方式和现在web端js实现方式本身有冲突，所以其作用还有待考证。
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/a56u1xigxrgg1wyph9h4ng15/image_1bbt7blfa15tg1l1p1ai51oigppa9.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/a56u1xigxrgg1wyph9h4ng15/image_1bbt7blfa15tg1l1p1ai51oigppa9.png

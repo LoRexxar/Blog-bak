@@ -247,11 +247,11 @@ https://etherscan.io/address/0xd69381aec4efd9599cfce1dc85d1dee9a28bfda2
 可以说，这是智能合约的一次极为特殊的漏洞利用，本身不涉及盗币，但却会对现在的交易所已经平台造成严重的危害，而且其本身底层逻辑bug难以从底层修复，只能在上层做修复，但黑名单的过滤方式很难真正奏效，一个属于区块链广告的黑暗时代到来了...
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/40wsh583au1b52wrq7h1zlkj/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/bt6ksztaddgua93zahn21ayp/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/irjva9hnvl1qgdl6dipr9aff/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/6mn1iox0cj2ewy6wa8zyelot/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/sohrof7ak2rfqs7opei5rr2y/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/u52nsbgp67spco536illmsoo/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/7g45lkyt0eal5fm1qe77oexi/image.png
-  [8]: http://static.zybuluo.com/LoRexxar/zgzt4w4x9vfa7huu76e76usx/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/40wsh583au1b52wrq7h1zlkj/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/bt6ksztaddgua93zahn21ayp/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/irjva9hnvl1qgdl6dipr9aff/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/6mn1iox0cj2ewy6wa8zyelot/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/sohrof7ak2rfqs7opei5rr2y/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/u52nsbgp67spco536illmsoo/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/7g45lkyt0eal5fm1qe77oexi/image.png
+  [8]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/zgzt4w4x9vfa7huu76e76usx/image.png

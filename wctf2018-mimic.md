@@ -325,6 +325,6 @@ return render_template('sb-admin/pages/%s.html' % page, admin_view=self)
 最后请求`?page=x`即可触发
 
 
-  [5]: http://static.zybuluo.com/LoRexxar/rf98mvtfeiiyu05ltb5oxx0m/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/6vlfhi58vrcegnsd6ciuecje/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/fb0kn88pavd4ducdv5gxf9l1/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/rf98mvtfeiiyu05ltb5oxx0m/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/6vlfhi58vrcegnsd6ciuecje/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/fb0kn88pavd4ducdv5gxf9l1/image.png

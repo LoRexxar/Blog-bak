@@ -429,6 +429,6 @@ function check(flag){
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/t1ve1pnu9lq3m99rzrlrq3vn/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/5u1n14snq6e3mzsld4id8jpp/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/jk8uuvv53ypu2p2hrywrh4lj/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/t1ve1pnu9lq3m99rzrlrq3vn/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/5u1n14snq6e3mzsld4id8jpp/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/jk8uuvv53ypu2p2hrywrh4lj/image.png

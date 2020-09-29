@@ -134,5 +134,5 @@ ubuntu@VM-1-7-ubuntu:~/lorexxar/redis-rogue-server$ redis-cli -h 172.17.0.3
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/ez0kvxi6tsjj6yafo2jflf69/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/1acc0xkhkaq31lgduuzpau23/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/ez0kvxi6tsjj6yafo2jflf69/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/1acc0xkhkaq31lgduuzpau23/image.png

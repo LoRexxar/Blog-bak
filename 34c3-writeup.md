@@ -528,9 +528,9 @@ document.write`${foo.import.body.innerHTML}`,document.write`${Array`${atob`PA`}$
 
 把数据传出...
 
-  [1]: http://static.zybuluo.com/LoRexxar/r67ihy6epkvcnkqvnqulsvjl/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/sgxf9gq2ni5i7osmlm17vzry/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/23ujazb8yck2rnzy9b6ow02s/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/nptyaixmrkwgizd1bce9yhe3/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/2tmhyv1f575lfz6apaeg0o4q/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/9tys2vihqrm3xznatpwkjzkm/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/r67ihy6epkvcnkqvnqulsvjl/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/sgxf9gq2ni5i7osmlm17vzry/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/23ujazb8yck2rnzy9b6ow02s/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/nptyaixmrkwgizd1bce9yhe3/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/2tmhyv1f575lfz6apaeg0o4q/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/9tys2vihqrm3xznatpwkjzkm/image.png

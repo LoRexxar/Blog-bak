@@ -330,12 +330,12 @@ chrome 插件还有专门的储存位置，其中包括chrome.storage和chrome.s
 
 
 
-  [1]: http://static.zybuluo.com/LoRexxar/nzgv5gqcu7wozh8h1wndaide/image.png
-  [2]: http://static.zybuluo.com/LoRexxar/8gmfcwvyqq68j52zfmxc93dm/image.png
-  [3]: http://static.zybuluo.com/LoRexxar/gkpt8kk0onv1lpr8t69imu1e/image.png
-  [4]: http://static.zybuluo.com/LoRexxar/9pcya60x0xu6nrma9bwtv4kr/image.png
-  [5]: http://static.zybuluo.com/LoRexxar/qf5x6o32xudpq0sgtsbvx114/image.png
-  [6]: http://static.zybuluo.com/LoRexxar/p7xcymx8f4xopfqpj3zgxo9r/image.png
-  [7]: http://static.zybuluo.com/LoRexxar/5mq3khlyrki9rism7fv1waqt/image.png
-  [8]: http://static.zybuluo.com/LoRexxar/94ze7yo02rtpld6l1phqhb9p/image.png
-  [9]: http://static.zybuluo.com/LoRexxar/lktbfrb2jbxevwqlzs1ofor6/image.png
+  [1]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/nzgv5gqcu7wozh8h1wndaide/image.png
+  [2]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/8gmfcwvyqq68j52zfmxc93dm/image.png
+  [3]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/gkpt8kk0onv1lpr8t69imu1e/image.png
+  [4]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/9pcya60x0xu6nrma9bwtv4kr/image.png
+  [5]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/qf5x6o32xudpq0sgtsbvx114/image.png
+  [6]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/p7xcymx8f4xopfqpj3zgxo9r/image.png
+  [7]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/5mq3khlyrki9rism7fv1waqt/image.png
+  [8]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/94ze7yo02rtpld6l1phqhb9p/image.png
+  [9]: https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/zybuluo-backup/LoRexxar/lktbfrb2jbxevwqlzs1ofor6/image.png
