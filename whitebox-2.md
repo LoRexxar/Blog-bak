@@ -10,6 +10,8 @@ tags:
 
 前段时间开源新版本KunLun-M的时候，写了一篇《从0开始聊聊自动化静态代码审计工具》的文章，里面分享了许多在这些年白盒静态扫描演变过程中出现的扫描思路、技术等等。在文章中我用了一个简单的例子描述了一下基于.QL的扫描思路，但实际在这个领域我可能只见过一个活的SemmleQL（也就是CodeQL的原型）。这篇文章中我也聊一聊这相关的东西，也分享一些我尝试探索的一些全新的静态扫描方案。
 
+本文提到的小demo phpunserializechain作为星链计划的一员开源，希望能给相关的安全从业者带来帮助。
+
 本文会提及大量的名词，其中如有解释错误或使用不当欢迎指正。
 <!--more-->
 
@@ -33,16 +35,17 @@ SCID: Source Code in Database 是指一种将代码语法解析并储存进代�
 
 在《从0开始聊聊自动化静态代码审计工具》中我曾经把基于.QL的认为是未来白盒发展的主要趋势，其主要原因在于现代普遍使用的白盒核心技术存在许多的无解问题，在上一篇文章中，我主要用一些基于技术原理的角度解释了几种现代的扫描方案，今天我就从技术本身聊聊这其中的区别。
 
-其实无论是基于AST的分析、还是基于IR/CFG又或是三地址码的分析方式，我们可以将它们统一叫做Data-flow analysis，也就是数据流分析。
+其实我在前文中提到的两种分析方式，无论是基于AST的分析、还是基于IR/CFG的分析方式，他们的区别只是技术基础不同，但分析的理论差异不大，我们可以粗略的将它们统一叫做Data-flow analysis，也就是数据流分析（污点分析可以算作是数据流分析的变种）。
 
-数据流分析有很多种种类，我们可以将其按照几种方式分类。
+数据流分析有很多种种类，其本质是流敏感的，但是通常来说是路径不敏感的，当然，我们可以按照敏感类型将其分类：
 
-如果是按照程序路径分析精度分类有：
-- 流不敏感分析：也就是不用考虑语句的先后顺序，按照程序语句的物理位置从上到下分析，忽略程序中存在的分析。基于AST的分析常见于这种。
-- 流敏感分析：考虑语句的执行先后顺序，这种分析通常依赖CFG控制流图
-- 路径敏感分析：不仅考虑语句的执行顺序，还要分析路径的执行条件（比如if条件等），以确定是否存在可实际运行的执行路径。
+- 流敏感分析：flow-sensitive，考虑语句的执行先后顺序，这种分析通常依赖CFG控制流图
+- 路径敏感分析：path-sensitive，不仅考虑语句的执行顺序，还要分析路径的执行条件（比如if条件等），以确定是否存在可实际运行的执行路径。
+- 上下文敏感分析：context-sensitive，属于一种过程间分析，在分析函数调用目标时会考虑调用上下文。主要面向的的场景为同一个函数/方法在不同次调用/不同位置调用时上下文不同的情况。
 
-这三种分类方式也就相对应着我在上一篇文章中提及的几种扫描方案，看上去如果能够完整的支持各种语法充足的分析逻辑，我们就可以针对每一种漏洞寻找相应的数据流挖掘漏洞。可惜事实是，问题比想象的还要多。这里我举几个可能被解决、也可能被暂时解决、也可能没人能解决的问题作为例子。
+当然，需要注意的是，这里仅指的是数据流分析的分类方式，与基于的技术原理无关，如果你愿意，你当然也可以基于AST来完成流敏感的分析工具。
+
+在基于数据流的扫描方案中，如果能够完整的支持各种语法充足的分析逻辑，我们就可以针对每一种漏洞寻找相应的数据流挖掘漏洞。可惜事实是，问题比想象的还要多。这里我举几个可能被解决、也可能被暂时解决、也可能没人能解决的问题作为例子。
 
 1、如何判断全局过滤方案？
 2、如何处理专用的过滤函数未完全过滤的情况？
@@ -53,7 +56,7 @@ SCID: Source Code in Database 是指一种将代码语法解析并储存进代�
 
 当在现代扫描方案不断进步的同时，或许许多问题都得到一定程度的解决，但可惜的是，这就像是扫描方案与开发人员的博弈一样，我们永远致力于降低误报率、漏报率却不能真正的解决，这样一来好像问题就变得又无解了起来...
 
-当然，.QL的概念的扫描方案并不是为了解决这些问题而诞生的，可幸运的是， 从我的视角来看，基于.QL概念的扫描方案将静态扫描走到了新的路中，让我们不再拘泥于探讨如何处理流敏感、节点的条件等等。上次我简单解释了基于.QL扫描方式的原理。
+当然，.QL的概念的扫描方案并不是为了解决这些问题而诞生的，可幸运的是， 从我的视角来看，基于.QL概念的扫描方案将静态扫描走到了新的路中，让我们不再拘泥于探讨如何处理流敏感、等等。上次我简单解释了基于.QL扫描方式的原理。
 
 其核心的原理就在于通过把每一个操作具象化模板化，并储存到数据库中。比如
 
@@ -90,7 +93,7 @@ select * where {
 
 # 如何实现一个合理的CodeDB呢?
 
-在最早只有Semmle QL的时候我就翻看过一些paper，到后来的LGTM，再到后来的CodeQL我都有一些了解，后来CodeQL出来的时候，翻看过一些人写的规则都距离CodeQL想要打到的目标相去甚远，之后就一直想要自己试着写一个类似的玩具试试看。这次在更新KunLun-M的过程中我又多次受制于基于AST的数据流分析的种种困难，于是有了这次的计划诞生。
+在最早只有Semmle QL的时候我就翻看过一些paper，到后来的LGTM，再到后来的CodeQL我都有一些了解，后来CodeQL出来的时候，翻看过一些人写的规则都距离CodeQL想要达到的目标相去甚远，之后就一直想要自己试着写一个类似的玩具试试看。这次在更新KunLun-M的过程中我又多次受制于基于AST的数据流分析的种种困难，于是有了这次的计划诞生。
 
 为了践行我的想法，这次我花了几个星期的事件设计了一个简易版本的Code DB，并基于Code DB写了一个简单的寻找php反序列化链的工具，工具源码详见:
 
@@ -156,3 +159,19 @@ select * from code_db where node_name='$a' and node_type='Assignment' and node_l
 如果对相应的代码感兴趣，可以持续关注KunLun-M的更新
 
 - [https://github.com/LoRexxar/Kunlun-M](https://github.com/LoRexxar/Kunlun-M)
+
+  
+
+# ref
+
+- [https://help.semmle.com/publications.html](https://help.semmle.com/publications.html)
+- [https://help.semmle.com/home/Resources/pdfs/scam07.pdf](https://help.semmle.com/home/Resources/pdfs/scam07.pdf)
+- [https://en.wikipedia.org/wiki/Data-flow_analysis](https://en.wikipedia.org/wiki/Data-flow_analysis)
+- [https://en.wikipedia.org/wiki/Control-flow_graph](https://en.wikipedia.org/wiki/Control-flow_graph)
+- [https://en.wikipedia.org/wiki/Source_Code_in_Database](https://en.wikipedia.org/wiki/Source_Code_in_Database)
+- [https://en.wikipedia.org/wiki/.QL](https://en.wikipedia.org/wiki/.QL)
+- [https://firmianay.gitbooks.io/ctf-all-in-one/content/doc/5.4_dataflow_analysis.html](https://firmianay.gitbooks.io/ctf-all-in-one/content/doc/5.4_dataflow_analysis.html)
+- [https://blog.csdn.net/nklofy/article/details/83963125](https://blog.csdn.net/nklofy/article/details/83963125)
+- [https://blog.csdn.net/nklofy/article/details/84206428](https://blog.csdn.net/nklofy/article/details/84206428)
+- [https://lorexxar.cn/2020/09/21/whiteboxaudit/](https://lorexxar.cn/2020/09/21/whiteboxaudit/)
+
