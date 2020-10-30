@@ -8,9 +8,13 @@ tags:
 
 ---
 
-前段时间开源新版本KunLun-M的时候，写了一篇《从0开始聊聊自动化静态代码审计工具》的文章，里面分享了许多在这些年白盒静态扫描演变过程中出现的扫描思路、技术等等。在文章中我用了一个简单的例子描述了一下基于.QL的扫描思路，但实际在这个领域我可能只见过一个活的SemmleQL（也就是CodeQL的原型）。这篇文章中我也聊一聊这相关的东西，也分享一些我尝试探索的一些全新的静态扫描方案。
+前段时间开源新版本KunLun-M的时候，写了一篇[《从0开始聊聊自动化静态代码审计工具》](https://lorexxar.cn/2020/09/21/whiteboxaudit/)的文章，里面分享了许多在这些年白盒静态扫描演变过程中出现的扫描思路、技术等等。在文章中我用了一个简单的例子描述了一下基于.QL的扫描思路，但实际在这个领域我可能只见过一个活的SemmleQL（也就是CodeQL的原型）。这篇文章中我也聊一聊这相关的东西，也分享一些我尝试探索的一些全新的静态扫描方案。
 
 本文提到的小demo phpunserializechain作为星链计划的一员开源，希望能给相关的安全从业者带来帮助。
+
+- [https://github.com/LoRexxar/Kunlun-M/tree/master/core/plugins/phpunserializechain](https://github.com/LoRexxar/Kunlun-M/tree/master/core/plugins/phpunserializechain)
+
+  
 
 本文会提及大量的名词，其中如有解释错误或使用不当欢迎指正。
 <!--more-->
