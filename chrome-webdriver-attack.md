@@ -8,7 +8,7 @@ tags:
 
 ---
 
-4月12号，@cursered在starlabs上公开了一篇文章[《You Talking To Me?》](https://starlabs.sg/blog/2021/04/you-talking-to-me/)，里面分享了关于Webdriver的一些机制以及安全问题，通过一串攻击链，成功实现了对Webdriver的RCE，我们就顺着文章的思路来一起看看~
+4月12号，[@cursered](https://twitter.com/cursered)在starlabs上公开了一篇文章[《You Talking To Me?》](https://starlabs.sg/blog/2021/04/you-talking-to-me/)，里面分享了关于Webdriver的一些机制以及安全问题，通过一串攻击链，成功实现了对Webdriver的RCE，我们就顺着文章的思路来一起看看~
 
 
 
