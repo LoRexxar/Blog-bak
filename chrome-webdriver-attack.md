@@ -215,9 +215,21 @@ t1 = setInterval('i +=1;console.log("wait dns rebinding...test "+i);waitdata()',
 
 
 
-占位啦~写完exp之后补上~
 
 
+这里我模拟了真实环境（跳过了端口扫描
+
+![image-20210420181859174](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/image-20210420181859174.png)
+
+
+
+视频
+
+
+
+[b站链接](https://www.bilibili.com/video/BV1X5411c7qX)
+
+[youtube链接](https://www.youtube.com/watch?v=cpySzy9TgDU)
 
 # 写在最后
 
