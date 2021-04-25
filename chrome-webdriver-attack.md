@@ -32,7 +32,7 @@ WebDriver是W3C的一个标准，由Selenium主持。具体的协议标准可以
 
 在整个流程当中，Selenium端点通过向Webdriver端口相应的seesion接口发送请求控制webdriver，webdriver通过预定的调试接口以及相应的协议来和浏览器交互（如Chrome通过Chrome DevTools Protocol来交互）。
 
-由于不同的浏览器厂商都定义了自己的driver，因此不同的浏览器和driver之间使用的协议可能会有所不同。比如Chrome就是用hrome DevTools Protocol。
+由于不同的浏览器厂商都定义了自己的driver，因此不同的浏览器和driver之间使用的协议可能会有所不同。比如Chrome就是用Chrome DevTools Protocol。
 
 ![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/AreYouTalkingToMe-W2Standards.png)
 
@@ -128,8 +128,6 @@ browser.get(url)
 我们可以从chromium种相应的代码窥得相应的限制。
 
 <https://source.chromium.org/chromium/chromium/src/+/master:chrome/test/chromedriver/server/http_server.cc;l=28>
-
-到目前为止，我们仍然没有找到任何可以远程利用的方式，无论是通过webdriver的REST API 来执行命令，
 
 这里我认为比较重要的是，这个校验来源是`std::string origin_header = info.GetHeaderValue("origin");`，也就是说，是当发送请求头中带Origin时，才会导致这个校验，众所周知，只有当使用js发送POST请求时，才会自动带上这个头，换言之，这里的校验并不会影响我们发送GET请求。
 
