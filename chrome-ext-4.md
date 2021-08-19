@@ -137,6 +137,7 @@ Content层面的的问题因为逃不开诸多的限制，所以危害比较有�
 
 
 - [Evernote Chrome ext XSS 演示 youtube版本](https://youtu.be/K6Oqb0hVT9k)
+- [Evernote Chrome ext XSS 演示 B站版本](https://www.bilibili.com/video/BV1UL411t7ut?p=2)
 
 
 
@@ -240,6 +241,7 @@ window.postMessage(JSON.stringify({
 
 
 - [3CL Chrome ext XSS 演示 youtube版本](https://youtu.be/t4HG7K_JIVg)
+- [3CL Chrome ext XSS 演示 B站版本](https://www.bilibili.com/video/BV1UL411t7ut/)
 
 
 
