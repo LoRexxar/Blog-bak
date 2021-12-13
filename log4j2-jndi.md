@@ -21,7 +21,7 @@ Apache Dubbo
 Apache Kafka
 Spring-boot-starter-log4j2
 ElasticSearch
-Redis
+Jedis
 Logstash
 …
 
