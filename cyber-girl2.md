@@ -10,7 +10,7 @@ tags:
 
 - https://lorexxar.cn/2023/02/21/cyber-girl/
 
-**在midjounry收费之后，除非你对AI绘图这个操作本身有强需求，否则在免费自建的****stable diffusion上做拓展就成了现在最好的解决方案。**
+**在midjounry收费之后，除非你对AI绘图这个操作本身有强需求，否则在免费自建的stable diffusion上做拓展就成了现在最好的解决方案。**
 
 这篇文章就聊一些stable diffusion的一些进阶操作和关键点。其中有不少还是很有意思的。
 
