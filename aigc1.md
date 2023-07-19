@@ -28,7 +28,7 @@ tags:
 
 然后就是安装**pytorch**的环境，这个环境比较麻烦，正常来说**通过conda来安装**是比较靠谱的办法，当然有些时候就是安不了。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1688550627136-cfa23055-8954-47f5-90c9-0c4c65c69288.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822387.png)
 
 如果安装不成功，就只能用源码来编译了。
 
@@ -71,7 +71,7 @@ conda install -c conda-forge libuv=1.39
 
 **在环境变量里加入****HF_HOME和TORCH_HOME ，设****置为指定变量即可。**
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1689063313670-2c836669-e2fa-4e00-9210-afd6c20198a5.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822422.png)
 
 除此之外，有的项目也会提供**docker化的部署方案**，如果采用这种方案，就必须在宿主机安装**NVIDIA Container Toolkit**，并重启docker
 
@@ -115,7 +115,7 @@ LLM的基座模型说实话有点儿多，尤其是在最开始的几个开源�
 
 - [**https://github.com/CLUEbenchmark/SuperCLUElyb**](https://github.com/CLUEbenchmark/SuperCLUElyb)
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1689150317594-8bc39e16-2d86-4c77-bd8c-f76c5be48cfe.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822932.png)
 
 ## Embedding 
 
@@ -126,7 +126,7 @@ Embedding 模型也是GPT的很重要一环，在之前的文章里曾经提到�
 - https://huggingface.co/GanymedeNil/text2vec-large-chinese
 - https://huggingface.co/shibing624/text2vec-base-chinese
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1689154653482-b9acd461-c0fa-40e8-9d60-eaec01b67398.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822989.png)
 
 ## gradio
 
@@ -134,7 +134,7 @@ Embedding 模型也是GPT的很重要一环，在之前的文章里曾经提到�
 
 - https://github.com/gradio-app/gradio
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1689068610950-2010c30e-0a20-4c86-9803-481ea2ad6404.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822258.png)
 
 首先要注意gradio最起码**python在3.8版本以上**.
 
@@ -149,11 +149,11 @@ demo = gr.Interface(fn=greet, inputs="text", outputs="text")
 demo.launch()
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1689069164220-1215884d-4ae8-411f-aa02-93ff3f938983.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822400.png)
 
 gradio支持非常多这类的常用场景，就比如**文本、勾选框、输入条，甚至文件上传、图片上传**，都有非常不错的原生支持。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1689069797695-fc716c25-d7d5-4623-8988-2b67bc88384f.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822513.png)
 
 ## FastChat
 
@@ -248,17 +248,17 @@ print(completion.choices[0].message.content)
 
 相应的现在很多应用还内置了**用于测试知识库的接口**，比如langchain-ChatGLM
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1689162462552-75838311-0444-439a-91b6-a4537f6d3151.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822165.png)
 
 通过**微调知识相关度的阈值**，可以让回答消息更有效。你甚至可以直接在平台新建知识库并录入数据。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1689163149386-2110aa98-24fe-46ce-ac52-898d5fac3b0f.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822043.png)
 
 # langchain
 
 **langchain是现在成熟度比较高的一套Aigc应用，现在比较主流的一种知识库检索方案**，用的是曾经的文章中提到过的基于上下文的训练方案，用户输出会先**进入数据库检索**，然后找出最匹配问题的部分结果然后和问题**一起加入到prompt的上下文**中，最终由**LLM生成最终的回答**。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1688717143547-f750cfd0-b35e-4cf2-90f5-704adb757e85.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822632.png)
 
 这个方案是目前**最经典的知识库型训练方案**，最有效的解决了**大模型本身训练的难度和反馈结果的有效度**难以兼容的问题。
 
@@ -268,14 +268,14 @@ print(completion.choices[0].message.content)
 
 - https://github.com/THUDM/ChatGLM-6B
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1688718730872-28c3a170-090d-465e-a6a1-7d96e2594e37.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822033.png)
 
 - https://huggingface.co/GanymedeNil/text2vec-large-chinese/tree/main
 
 另一方面呢也做了比较成熟的**vue前端+知识库**，可以快速的拼凑出可用的chat ai。
 
 - https://github.com/imClumsyPanda/langchain-ChatGLM
-- https://github.com/yanqiangmiffy/Chinese-LangChain#![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1688718220672-1786e361-ee80-4078-b895-314b946b632c.png)
+- https://github.com/yanqiangmiffy/Chinese-LangChain#![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822670.png)
 
 ## langchain-ChatGLM
 
@@ -283,11 +283,11 @@ langchain-ChatGLM是诸多langchain方案中中文支持实现的比较好的一
 
 整个项目中的每个部分都可以一定程度的自由组合，Embedding 默认选用的是 [**GanymedeNil/text2vec-large-chinese**](https://huggingface.co/GanymedeNil/text2vec-large-chinese/tree/main)，LLM 默认选用的是 [**ChatGLM-6B**](https://github.com/THUDM/ChatGLM-6B)。或者也可以通过**fastchat**来接入。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1688720565328-69c62c1d-2c04-4524-bcd6-dd4e13bfd98d.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822380.png)
 
 配置完成并安装好环境之后，就可以运行，首次运行会下载对应的大模型。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1688727809929-68264b8e-88af-4e0b-b533-0dba62f565e2.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822386.png)
 
 当然，这个模型实在是太大了，命令行下载的时候非常容易出问题，所以可以参考ChatGLM-6B的方案，自己下载模型然后再加载。
 
@@ -303,7 +303,7 @@ GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/THUDM/chatglm-6b
 
 然后需要修改对应的配置文件中模型的位置，在configs/model_config.py
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1688728123615-117b25f6-50d1-4be1-83f2-73b0b0e43954.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822879.png)
 
 默认的知识库文件路径是
 
@@ -317,10 +317,10 @@ knowledge_base\samples
 python cli_demo.py
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1689063669036-9b446788-6bfb-4ec6-b7fd-5460259833d6.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822803.png)
 
 ```python
 python3.10 .\webui.py
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1689068054310-60558de7-eada-460d-ad15-dda2473f9422.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202307191822855.png)
