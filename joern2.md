@@ -52,7 +52,7 @@ c.b -> ....
 
 我甚至很难用文字的方式表达出他们之间的关系，而**图在这样的场景下就变得很有优势。**
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692605645328-0ebeba5b-1f53-43c2-aea3-10bc8d236a61.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725366.png)
 
 当然这只是一个粗浅的例子，但已经很明显的能感觉出来图和文字之间的差距了，**图关系可以很轻松的表达出文字很难表达出来的信息量。**
 
@@ -77,7 +77,7 @@ cpg.method($name).dotCfg.l // output CFG in dot format
 cpg.method($name).dotCpg14.l // output CPG'14 in dot format
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692606692896-ee663c85-77fc-4887-b05e-0b7d83d0a7cb.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725427.png)
 
 有个很有意思的是，如果你的电脑装了**Graphviz**，Joern还可以调用Graphviz来绘图，虽然生成的图很难看。
 
@@ -92,7 +92,7 @@ cpg.method($name).plotDotCfg // plot CFG
 cpg.method($name).plotDotCpg14 // plot CPG'14
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692607237756-6bbaab5a-1950-43ae-ac7a-45598be7de99.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725174.png)
 
 说实话，不太实用，但是很方便
 
@@ -133,11 +133,11 @@ return
 
 而相对于普通的数据库来说，**图数据库有着可能是一种优势的特性，就是可以直接通过Neo4j的浏览器直接操作图内容以及结构。**
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692611086028-45813553-8ed8-4bbe-a9b6-e3edcf466eb5.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725125.png)
 
 直接**用鼠标点击各个节点查看对应的属性以及它们之间的关系**，并且可以直接拖动他们。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692611176176-ba4228f9-679e-404f-9427-3b805d72306c.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725248.png)
 
 点击节点下面的按钮，可以直接**查看到节点连接到的其他节点**，很方便也很直观。
 
@@ -156,35 +156,35 @@ return
 
 要使用joern-export导出数据的话，**需要指定CPG的位置**，这个东西会存在**Joern目录下的workspace**当中，并且需要指定output，默认是./out。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692612074584-1dabd5b0-eb0d-4bcd-a335-d2f3463bf756.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725713.png)
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692612106007-3353f4cb-a061-4190-8615-32bc3b82fdac.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221726073.png)
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692612120641-a4eb94e1-226a-4633-811e-2167699e9eed.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725960.png)
 
 然后我们可以想办法**把这些csv文件导入到Neo4j当中**。当然你可以用一些自己的方式导入，但joern的这个图还挺麻烦的，主要是**neo4j导入复杂结构数据需要指定好各种csv文件的关联。**
 
 但joern当然也给出了导入的办法，在生成文件的时候会**给出一个导入命令的范例**，照着范例就可以搞定了。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692685954936-2ba4b2bf-6717-4651-9266-f7e9e72ef8d8.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725691.png)
 
 首先joern导入数据是有限制的，**只能导入import目录下的文件**，这个import文件一般会在对应链接的server目录下面，如果你使用的是neo4j的desltop浏览器，那么你可以直接打开对应的import目录，并把文件复制过去。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692686066774-fcd82322-c672-4036-bb1e-255fb8c2c9b4.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725662.png)
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692686088202-c8437685-eea7-42e5-b448-ddd339e7c490.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725283.png)
 
 除了文件以外，还有就是这个/bin/cypher-shell的位置，**这个脚本就在对应链接目录的bin下**
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692686293588-7f992135-6cf4-4b52-8549-fc0d78a4eec2.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725399.png)
 
 然后构造对应的find命令生成执行导入即可，其实它的原理也比较简单，就是**依次执行\*_cypher.csv文件中的命令，然后导入header和data。**
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692686369841-2877744a-e1ad-454e-aefa-d2ac3fc3fc59.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221725408.png)
 
 最终导入的数据就是这样的
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692686394254-27867c81-96d4-4637-ac60-5927deaf9985.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221726709.png)
 
 # 用cypher在Neo4J上查询漏洞
 
@@ -192,7 +192,7 @@ return
 
 这里还是拿上篇文章中用到的RCE代码来举例子。
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692688121461-b1e506bc-a0dc-4e82-ab4b-e38200ed382c.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221726076.png)
 
 对应Joern的语句为
 
@@ -208,7 +208,7 @@ def sink = cpg.call.name("exec")
 MATCH (n:ANNOTATION) where n.NAME=~".*Mapping" RETURN n LIMIT 25
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692688861730-ef39cec8-026b-4868-9c3c-55b4c35b4d77.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221726708.png)
 
 然后找这些对应节点关联的方法
 
@@ -216,7 +216,7 @@ MATCH (n:ANNOTATION) where n.NAME=~".*Mapping" RETURN n LIMIT 25
 MATCH (m:METHOD)-[:AST]->(n:ANNOTATION) where n.NAME=~".*Mapping" RETURN n LIMIT 25
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692689267831-15c53e14-0fe0-4b34-ba8d-927d475cdf06.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221726919.png)
 
 然后找一下对应调用exec方法的节点
 
@@ -224,7 +224,7 @@ MATCH (m:METHOD)-[:AST]->(n:ANNOTATION) where n.NAME=~".*Mapping" RETURN n LIMIT
 MATCH (n:CALL) where n.NAME="exec" RETURN n LIMIT 25
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692690581420-4b2f173f-f613-4529-a7fb-84f769f9db40.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221726948.png)
 
 然后我们把两个节点连接起来，并查找最短路径，这里的[*..10]表示最长不超过10个关系
 
@@ -232,6 +232,6 @@ MATCH (n:CALL) where n.NAME="exec" RETURN n LIMIT 25
 MATCH (p1:METHOD)-[:AST]->(n:ANNOTATION),(p2:CALL),p=shortestpath((p1)-[*..10]-(p2)) where n.NAME=~".*Mapping" and p2.NAME="exec" RETURN p LIMIT 25
 ```
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1692693277175-15c4a463-4fa0-4120-b86f-83b93304c3f0.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308221726967.png)
 
 这里范例算是比较简单的，所以用这个还算比较简单的语句就可以查询到结果，正好对应漏洞利用链。
