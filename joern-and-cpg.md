@@ -1,5 +1,5 @@
 ---
-title: Joern与CPG是什么？
+title: 深入浅出Joern（一）Joern与CPG是什么？
 date: 2023-08-21 14:25:23
 tags:
 - sast
@@ -186,9 +186,9 @@ importCpg("path/to/cpg")
 
 ![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308211431257.png)
 
-你可以用workspace.setActiveProject("java-sec-code")来切换当前激活的工作区
+你可以用open("java-sec-code")来激活对应的项目
 
-![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308211431765.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202308211451236.png)
 
 这里最终生成的**cpg变量就是代码的CPG**，所有的代码数据都会存在这个变量，比如cpg.metaData就是基础元数据，一般来说后面会加个.l，**这个l就是tolist，结果会转成list格式**。
 
