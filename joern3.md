@@ -238,15 +238,15 @@ val res66: List[List[String | Option[Integer]]] = List(
 
 既然需要寻找两个节点之间的路径，那么就少不了重复，**重复获取父级节点**就是最简单的一种数据流分析。
 
-- **x.repeat(_.caller)(_.times(5))**
+- **x.repeat(\_.caller)(\_.times(5))**
 
 重复获取caller共5次，如果找不到结果就会停止
 
-- **x.repeat(_.caller)(_.until(_.name("foo")))**
+- **x.repeat(\_.caller)(\_.until(\_.name("foo")))**
 
 重复调用 caller 查询，直到找到一个方法名为 foo 的方法，找不到就返回空。
 
-- **x.repeat(_.caller)(_.emit(_.isMethod).times(5))**
+- **x.repeat(\_.caller)(\_.emit(\_.isMethod).times(5))**
 
 emit的意思是会将查询的过程节点作为返回的列表中的一员。
 
