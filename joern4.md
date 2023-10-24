@@ -224,3 +224,17 @@ public String codeInject(String filepath) throws IOException {
 - cpg.method("start")
 
 名为start的方法的定义节点
+
+## 读取向外的所有边
+
+- cpg.method.head.outE.map(n=>n.label).l
+
+获取当前节点向外所有的边，并展示边类型
+
+![image-20231023182018337](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202310231821493.png)
+
+- cpg.method.head.outE.map(n=>n.inNode).l
+
+获取当前节点向外所有的边，并展示连接到的节点
+
+![image-20231023182055115](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202310231821093.png)
