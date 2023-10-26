@@ -140,6 +140,7 @@ Annotation是Java中的注解节点
 joern中命名空间分为namespace和namespaceBlock两个节点，file->namespaceBlock->namespace，所以这两个节点可以混在一起讲
 
 - Namespace._namespaceBlockViaRefIn：指向namespace的namespaceBlock节点
+- NamespaceBlock._namespaceViaRefOut：bock对应的namespace节点
 - NamespaceBlock.astOut：namespaceBlock节点通过ast边指向的节点
 - NamespaceBlock._methodViaAstOut：通过ast边指向的method节点
 - NamespaceBlock._typeDeclViaAstOut：通过ast边指向的class类定义节点
