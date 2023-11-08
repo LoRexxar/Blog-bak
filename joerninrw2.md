@@ -54,7 +54,7 @@ class CaptchaMixin(forms.Form):
 
 这个问题在0.5.19版本中被修复
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1698115187427-c71622a1-ccb8-4f72-b854-7d2e8029b80a.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202311081422475.png)
 
 这里其实涉及到了django-simple-captcha的一个feature，**在设计上其实是允许通过key来指定随机数种子的**，这个feature是为了**让同一个key可以对应同一个验证码**，用来实现验证码的对应。
 
@@ -62,7 +62,7 @@ class CaptchaMixin(forms.Form):
 
 而这里的key是一个已知的值，就是用于生成验证码的参数
 
-![img](https://cdn.nlark.com/yuque/0/2023/png/26687441/1698115998504-a596d5e9-fc1c-467b-afa6-462082cc5676.png)
+![img](https://lorexxar-blog.oss-cn-shanghai.aliyuncs.com/blog/202311081422164.png)
 
 换言之，我们可以**得知当前Random的随机数种子**，甚至可以控制这个种子。
 
