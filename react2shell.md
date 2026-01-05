@@ -8,7 +8,7 @@ tags:
 
 2025年12月3日，时隔4年，安全圈又一个通杀环境的核弹漏洞被公开，CVSS评分10.0，影响范围React 19+全版本，Next.js 15/16，无条件默认环境RCE漏洞，史称React2shell。
 
-<font style="color:rgb(0, 0, 0);">该漏洞由安全研究员 Lachlan Davidson 于 2025 年 11 月 29 日发现，在3号被公开</font>
+该漏洞由安全研究员 Lachlan Davidson 于 2025 年 11 月 29 日发现，在3号被公开
 
 + [https://www.tenable.com/blog/react2shell-cve-2025-55182-react-server-components-rce](https://www.tenable.com/blog/react2shell-cve-2025-55182-react-server-components-rce)
 
@@ -30,10 +30,10 @@ tags:
 
 修复补丁版本包括
 
-+ <font style="color:rgb(0, 0, 0);">React：19.0.1、19.1.2 、19.2.1</font>
-+ <font style="color:rgb(0, 0, 0);">Next.js：14.3.0-canary.88、15.0.5、15.1.9、15.2.6、15.3.6、15.4.8、15.5.7、16.0.7</font>
++ React：19.0.1、19.1.2 、19.2.1
++ Next.js：14.3.0-canary.88、15.0.5、15.1.9、15.2.6、15.3.6、15.4.8、15.5.7、16.0.7
 
-# <font style="color:rgb(0, 0, 0);">简单的漏洞演示</font>
+# 简单的漏洞演示
 最简单的漏洞演示非常简单，直接起一个默认环境的next.js即可
 
 <!-- 这是一张图片，ocr 内容为： -->
